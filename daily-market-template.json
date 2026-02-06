@@ -1,0 +1,30 @@
+{
+  "date": "02/05/26",
+  "time": "16:15",
+  "stocks": {
+    "sp500": "6,798 (-1.23%)",
+    "dow": "48,909 (-1.20%)",
+    "nasdaq": "22,541 (-1.59%)",
+    "note": "*Numbers as of market close on Feb 5th",
+    "news": "Even Amazon (AMZN -4.42%) wasn't safe from yesterday's downturn, getting punished after its earnings report."
+  },
+  "economy": {
+    "us10year": "4.19% (-0.09%)",
+    "gold": "$4,811 (-2.39%)",
+    "silver": "$73.68 (-13.01%)",
+    "note": "*Numbers as of 4:15pm ET Feb 5th",
+    "commentary": "U.S. employers announced 108,435 layoffs for the month, up 118% from the same period a year ago and 205% from December 2025. The total marked the highest for any January since 2009.\n\nThe chain, owned by Yum! Brands (YUM +0.95%) said it will close around 150 stores throughout the country."
+  },
+  "crypto": {
+    "btc": "$63,632 (-12.85%)",
+    "eth": "$1,875 (-12.54%)",
+    "xrp": "$1.45 (-22.01%)",
+    "commentary": "For years, Bitcoin has closely tracked the overall tech market and the Nasdaq composite.\n\nBut yesterday's price action was another sign that the two assets might be decoupling (breaking up)."
+  },
+  "real_estate": {
+    "rate_30year": "6.17%",
+    "rate_15year": "5.75%",
+    "homebuilder": "Cooler Markets, Hotter Deals",
+    "commentary": "The housing market cooled last week according to Realtor.com.\n\nBut that could mean a shift to a buyer's market:\n• Buyers have more homes to choose from, and pricing getting more competitive.\n• The median list price fell 2.4% year-over-year.\n\n📍 Alameda County (Fremont Focus)\n\nResidential Market (Feb 2026 Update)\n• Market Status: Fremont remains a \"Seller's Market,\" though it is cooling slightly compared to the frenzied pace of last year.\n• Median Price: The median list price in Fremont is currently hovering around $1.65M.\n• Inventory: Inventory has ticked up slightly to 56 active listings (up from last month), giving buyers a few more options. However, competition remains stiff for move-in ready homes.\n• Affordable Housing Opportunity: The City of Fremont has a \"Below Market Price\" (BMP) townhome available for application (Deadline: Feb 20, 2026). This is a brand-new 3-bedroom unit priced significantly under market value (~$364k), aimed at qualifying middle-income households.\n• H Mart Expansion: Excitement continues to build around H Mart's announcement that it is planning to open its largest U.S. location in Fremont. This remains a top topic of local conversation and excitement.\n\nTraffic & Closures: Major road closures are in effect around the stadium (Tasman Dr, Great America Pkwy). Traffic is dense throughout Santa Clara County as an estimated 90,000 visitors have descended on the region."
+  }
+}
