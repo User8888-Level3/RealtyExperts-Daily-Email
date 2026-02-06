@@ -1,54 +1,9 @@
-#!/usr/bin/env node
-
-const fs = require('fs');
-const path = require('path');
-
-// Read JSON data
-function loadData(jsonFile) {
-  const data = JSON.parse(fs.readFileSync(jsonFile, 'utf8'));
-  return data;
-}
-
-// Format commentary text with proper paragraphs and bullets
-function formatCommentary(text) {
-  // Split by double newlines for paragraphs
-  const paragraphs = text.split('\n\n');
-
-  return paragraphs.map(para => {
-    // Check if paragraph contains bullet points
-    if (para.includes('•')) {
-      const lines = para.split('\n');
-      let html = '';
-      lines.forEach(line => {
-        const trimmed = line.trim();
-        if (trimmed.startsWith('•')) {
-          html += `<div style="margin: 6px 0; padding-left: 0; line-height: 1.8;">${trimmed}</div>`;
-        } else if (trimmed.startsWith('📍')) {
-          html += `<div style="margin: 24px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">${trimmed}</div>`;
-        } else if (trimmed) {
-          html += `<div style="margin: 10px 0; line-height: 1.8; font-weight: 600;">${trimmed}</div>`;
-        }
-      });
-      return html;
-    } else {
-      return `<div style="margin: 0 0 16px 0; line-height: 1.8;">${para.trim()}</div>`;
-    }
-  }).join('');
-}
-
-// Generate HTML with inline styles for Outlook compatibility
-function generateHTML(data) {
-  // Format date for filenames (MMDDYY)
-  const dateForFile = data.date.replace(/\//g, '');
-  const htmlFileName = `daily-market-glance-${dateForFile}.html`;
-  const githubBaseUrl = 'https://user8888-level3.github.io/RealtyExperts-Daily-Email';
-
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Market Glance - ${data.date}</title>
+  <title>Daily Market Glance - 02/05/26</title>
 </head>
 <body style="margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; background-color: #f0f4f8;">
   <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f0f4f8; padding: 20px 0;">
@@ -60,7 +15,7 @@ function generateHTML(data) {
           <tr>
             <td style="background-color: #f1f5f9; padding: 12px 20px; text-align: center; border-bottom: 1px solid #e2e8f0;">
               <p style="margin: 0; font-size: 13px; color: #64748b;">
-                Having trouble viewing this email? <a href="${githubBaseUrl}/${htmlFileName}" style="color: #2563eb; text-decoration: none; font-weight: 600;">View in Browser</a>
+                Having trouble viewing this email? <a href="https://user8888-level3.github.io/RealtyExperts-Daily-Email/daily-market-glance-020526.html" style="color: #2563eb; text-decoration: none; font-weight: 600;">View in Browser</a>
               </p>
             </td>
           </tr>
@@ -70,7 +25,7 @@ function generateHTML(data) {
             <td style="background-color: #2563eb; padding: 30px 40px; text-align: center;">
               <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2024/02/cropped-2022_Logo_WhiteBox-Realtor-1.jpg" alt="REALTY EXPERTS" width="250" style="display: block; margin: 0 auto 15px; max-width: 100%; height: auto;">
               <h1 style="margin: 0 0 8px 0; font-size: 28px; font-weight: 700; color: #ffffff;">Daily Market Glance</h1>
-              <p style="margin: 0; font-size: 14px; color: rgba(255,255,255,0.9);">${data.date} - ${data.time}</p>
+              <p style="margin: 0; font-size: 14px; color: rgba(255,255,255,0.9);">02/05/26 - 16:15</p>
             </td>
           </tr>
 
@@ -109,23 +64,23 @@ function generateHTML(data) {
                     <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #2563eb; margin-bottom: 12px;">
                       <tr>
                         <td style="font-weight: 600; color: #475569; font-size: 14px;">S&P:</td>
-                        <td align="right" style="font-weight: 700; font-size: 18px; color: ${data.stocks.sp500.includes('+') ? '#16a34a' : data.stocks.sp500.includes('-') ? '#dc2626' : '#1e293b'};">${data.stocks.sp500}</td>
+                        <td align="right" style="font-weight: 700; font-size: 18px; color: #dc2626;">6,798 (-1.23%)</td>
                       </tr>
                       <tr>
                         <td style="font-weight: 600; color: #475569; font-size: 14px; border-top: 1px solid #e2e8f0; padding-top: 12px;">DOW:</td>
-                        <td align="right" style="font-weight: 700; font-size: 18px; color: ${data.stocks.dow.includes('+') ? '#16a34a' : data.stocks.dow.includes('-') ? '#dc2626' : '#1e293b'}; border-top: 1px solid #e2e8f0; padding-top: 12px;">${data.stocks.dow}</td>
+                        <td align="right" style="font-weight: 700; font-size: 18px; color: #dc2626; border-top: 1px solid #e2e8f0; padding-top: 12px;">48,909 (-1.20%)</td>
                       </tr>
                       <tr>
                         <td style="font-weight: 600; color: #475569; font-size: 14px; border-top: 1px solid #e2e8f0; padding-top: 12px;">NASDAQ:</td>
-                        <td align="right" style="font-weight: 700; font-size: 18px; color: ${data.stocks.nasdaq.includes('+') ? '#16a34a' : data.stocks.nasdaq.includes('-') ? '#dc2626' : '#1e293b'}; border-top: 1px solid #e2e8f0; padding-top: 12px;">${data.stocks.nasdaq}</td>
+                        <td align="right" style="font-weight: 700; font-size: 18px; color: #dc2626; border-top: 1px solid #e2e8f0; padding-top: 12px;">22,541 (-1.59%)</td>
                       </tr>
                       <tr>
-                        <td colspan="2" style="font-size: 12px; color: #64748b; font-style: italic; padding-top: 12px;">${data.stocks.note}</td>
+                        <td colspan="2" style="font-size: 12px; color: #64748b; font-style: italic; padding-top: 12px;">*Numbers as of market close on Feb 5th</td>
                       </tr>
                     </table>
                     <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #2563eb;">
                       <tr>
-                        <td style="font-size: 15px; color: #334155;"><div style="margin: 0; line-height: 1.8;">${data.stocks.news}</div></td>
+                        <td style="font-size: 15px; color: #334155;"><div style="margin: 0; line-height: 1.8;">Even Amazon (AMZN -4.42%) wasn't safe from yesterday's downturn, getting punished after its earnings report.</div></td>
                       </tr>
                     </table>
                   </td>
@@ -142,30 +97,30 @@ function generateHTML(data) {
                     <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #16a34a;  margin-bottom: 12px;">
                       <tr>
                         <td style="font-weight: 600; color: #475569; font-size: 14px;">US10YEAR:</td>
-                        <td align="right" style="font-weight: 700; font-size: 18px; color: ${data.economy.us10year.includes('+') ? '#16a34a' : data.economy.us10year.includes('-') ? '#dc2626' : '#1e293b'};">${data.economy.us10year}</td>
+                        <td align="right" style="font-weight: 700; font-size: 18px; color: #dc2626;">4.19% (-0.09%)</td>
                       </tr>
                       <tr>
                         <td style="font-weight: 600; color: #475569; font-size: 14px; border-top: 1px solid #e2e8f0; padding-top: 12px;">Gold:</td>
-                        <td align="right" style="font-weight: 700; font-size: 18px; color: ${data.economy.gold.includes('+') ? '#16a34a' : data.economy.gold.includes('-') ? '#dc2626' : '#1e293b'}; border-top: 1px solid #e2e8f0; padding-top: 12px;">${data.economy.gold}</td>
+                        <td align="right" style="font-weight: 700; font-size: 18px; color: #dc2626; border-top: 1px solid #e2e8f0; padding-top: 12px;">$4,811 (-2.39%)</td>
                       </tr>
                       <tr>
                         <td style="font-weight: 600; color: #475569; font-size: 14px; border-top: 1px solid #e2e8f0; padding-top: 12px;">Silver:</td>
-                        <td align="right" style="font-weight: 700; font-size: 18px; color: ${data.economy.silver.includes('+') ? '#16a34a' : data.economy.silver.includes('-') ? '#dc2626' : '#1e293b'}; border-top: 1px solid #e2e8f0; padding-top: 12px;">${data.economy.silver}</td>
+                        <td align="right" style="font-weight: 700; font-size: 18px; color: #dc2626; border-top: 1px solid #e2e8f0; padding-top: 12px;">$73.68 (-13.01%)</td>
                       </tr>
-                      ${data.economy.note ? `<tr>
-                        <td colspan="2" style="font-size: 12px; color: #64748b; font-style: italic; padding-top: 12px;">${data.economy.note}</td>
-                      </tr>` : ''}
+                      <tr>
+                        <td colspan="2" style="font-size: 12px; color: #64748b; font-style: italic; padding-top: 12px;">*Numbers as of 4:15pm ET Feb 5th</td>
+                      </tr>
                     </table>
                     <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #16a34a;">
                       <tr>
-                        <td style="font-size: 15px; color: #334155;">${formatCommentary(data.economy.commentary)}</td>
+                        <td style="font-size: 15px; color: #334155;"><div style="margin: 0 0 16px 0; line-height: 1.8;">U.S. employers announced 108,435 layoffs for the month, up 118% from the same period a year ago and 205% from December 2025. The total marked the highest for any January since 2009.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">The chain, owned by Yum! Brands (YUM +0.95%) said it will close around 150 stores throughout the country.</div></td>
                       </tr>
                     </table>
                   </td>
                 </tr>
               </table>
 
-              ${data.crypto ? `<!-- CRYPTO Section -->
+              <!-- CRYPTO Section -->
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 35px;">
                 <tr>
                   <td>
@@ -175,25 +130,25 @@ function generateHTML(data) {
                     <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #f59e0b;  margin-bottom: 12px;">
                       <tr>
                         <td style="font-weight: 600; color: #475569; font-size: 14px;">BTC:</td>
-                        <td align="right" style="font-weight: 700; font-size: 18px; color: ${data.crypto.btc.includes('+') ? '#16a34a' : data.crypto.btc.includes('-') ? '#dc2626' : '#1e293b'};">${data.crypto.btc}</td>
+                        <td align="right" style="font-weight: 700; font-size: 18px; color: #dc2626;">$63,632 (-12.85%)</td>
                       </tr>
                       <tr>
                         <td style="font-weight: 600; color: #475569; font-size: 14px; border-top: 1px solid #e2e8f0; padding-top: 12px;">ETH:</td>
-                        <td align="right" style="font-weight: 700; font-size: 18px; color: ${data.crypto.eth.includes('+') ? '#16a34a' : data.crypto.eth.includes('-') ? '#dc2626' : '#1e293b'}; border-top: 1px solid #e2e8f0; padding-top: 12px;">${data.crypto.eth}</td>
+                        <td align="right" style="font-weight: 700; font-size: 18px; color: #dc2626; border-top: 1px solid #e2e8f0; padding-top: 12px;">$1,875 (-12.54%)</td>
                       </tr>
                       <tr>
                         <td style="font-weight: 600; color: #475569; font-size: 14px; border-top: 1px solid #e2e8f0; padding-top: 12px;">XRP:</td>
-                        <td align="right" style="font-weight: 700; font-size: 18px; color: ${data.crypto.xrp.includes('+') ? '#16a34a' : data.crypto.xrp.includes('-') ? '#dc2626' : '#1e293b'}; border-top: 1px solid #e2e8f0; padding-top: 12px;">${data.crypto.xrp}</td>
+                        <td align="right" style="font-weight: 700; font-size: 18px; color: #dc2626; border-top: 1px solid #e2e8f0; padding-top: 12px;">$1.45 (-22.01%)</td>
                       </tr>
                     </table>
                     <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #f59e0b;">
                       <tr>
-                        <td style="font-size: 15px; color: #334155;">${formatCommentary(data.crypto.commentary)}</td>
+                        <td style="font-size: 15px; color: #334155;"><div style="margin: 0 0 16px 0; line-height: 1.8;">For years, Bitcoin has closely tracked the overall tech market and the Nasdaq composite.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">But yesterday's price action was another sign that the two assets might be decoupling (breaking up).</div></td>
                       </tr>
                     </table>
                   </td>
                 </tr>
-              </table>` : ''}
+              </table>
 
               <!-- REAL ESTATE Section -->
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 35px;">
@@ -209,7 +164,7 @@ function generateHTML(data) {
                             <tr>
                               <td>
                                 <div style="font-size: 13px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">30-Year</div>
-                                <div style="font-size: 32px; font-weight: 700; color: #1e293b;">${data.real_estate.rate_30year}</div>
+                                <div style="font-size: 32px; font-weight: 700; color: #1e293b;">6.17%</div>
                               </td>
                             </tr>
                           </table>
@@ -220,7 +175,7 @@ function generateHTML(data) {
                             <tr>
                               <td>
                                 <div style="font-size: 13px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">15-Year</div>
-                                <div style="font-size: 32px; font-weight: 700; color: #1e293b;">${data.real_estate.rate_15year}</div>
+                                <div style="font-size: 32px; font-weight: 700; color: #1e293b;">5.75%</div>
                               </td>
                             </tr>
                           </table>
@@ -230,8 +185,8 @@ function generateHTML(data) {
                     <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #ea580c;">
                       <tr>
                         <td style="font-size: 15px; color: #334155;">
-                          <div style="margin: 0 0 16px 0; font-weight: 700; font-size: 16px;">${data.real_estate.homebuilder}</div>
-                          ${formatCommentary(data.real_estate.commentary)}
+                          <div style="margin: 0 0 16px 0; font-weight: 700; font-size: 16px;">Cooler Markets, Hotter Deals</div>
+                          <div style="margin: 0 0 16px 0; line-height: 1.8;">The housing market cooled last week according to Realtor.com.</div><div style="margin: 10px 0; line-height: 1.8; font-weight: 600;">But that could mean a shift to a buyer's market:</div><div style="margin: 6px 0; padding-left: 0; line-height: 1.8;">• Buyers have more homes to choose from, and pricing getting more competitive.</div><div style="margin: 6px 0; padding-left: 0; line-height: 1.8;">• The median list price fell 2.4% year-over-year.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">📍 Alameda County (Fremont Focus)</div><div style="margin: 10px 0; line-height: 1.8; font-weight: 600;">Residential Market (Feb 2026 Update)</div><div style="margin: 6px 0; padding-left: 0; line-height: 1.8;">• Market Status: Fremont remains a "Seller's Market," though it is cooling slightly compared to the frenzied pace of last year.</div><div style="margin: 6px 0; padding-left: 0; line-height: 1.8;">• Median Price: The median list price in Fremont is currently hovering around $1.65M.</div><div style="margin: 6px 0; padding-left: 0; line-height: 1.8;">• Inventory: Inventory has ticked up slightly to 56 active listings (up from last month), giving buyers a few more options. However, competition remains stiff for move-in ready homes.</div><div style="margin: 6px 0; padding-left: 0; line-height: 1.8;">• Affordable Housing Opportunity: The City of Fremont has a "Below Market Price" (BMP) townhome available for application (Deadline: Feb 20, 2026). This is a brand-new 3-bedroom unit priced significantly under market value (~$364k), aimed at qualifying middle-income households.</div><div style="margin: 6px 0; padding-left: 0; line-height: 1.8;">• H Mart Expansion: Excitement continues to build around H Mart's announcement that it is planning to open its largest U.S. location in Fremont. This remains a top topic of local conversation and excitement.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">Traffic & Closures: Major road closures are in effect around the stadium (Tasman Dr, Great America Pkwy). Traffic is dense throughout Santa Clara County as an estimated 90,000 visitors have descended on the region.</div>
                         </td>
                       </tr>
                     </table>
@@ -243,7 +198,7 @@ function generateHTML(data) {
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 24px 0;">
                 <tr>
                   <td align="center">
-                    <img src="https://raw.githubusercontent.com/User8888-Level3/RealtyExperts-Daily-Email/main/RE-Daily-1-${dateForFile}.png" alt="Local Housing Statistics" width="100%" style="display: block; max-width: 100%; height: auto;">
+                    <img src="https://raw.githubusercontent.com/User8888-Level3/RealtyExperts-Daily-Email/main/RE-Daily-1-020526.png" alt="Local Housing Statistics" width="100%" style="display: block; max-width: 100%; height: auto;">
                   </td>
                 </tr>
               </table>
@@ -252,7 +207,7 @@ function generateHTML(data) {
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 24px 0;">
                 <tr>
                   <td align="center">
-                    <img src="https://raw.githubusercontent.com/User8888-Level3/RealtyExperts-Daily-Email/main/RE-Daily-2-${dateForFile}.png" alt="Market Analysis Chart" width="100%" style="display: block; max-width: 100%; height: auto;">
+                    <img src="https://raw.githubusercontent.com/User8888-Level3/RealtyExperts-Daily-Email/main/RE-Daily-2-020526.png" alt="Market Analysis Chart" width="100%" style="display: block; max-width: 100%; height: auto;">
                   </td>
                 </tr>
               </table>
@@ -265,7 +220,7 @@ function generateHTML(data) {
             <td style="background-color: #f8fafc; padding: 24px 40px; text-align: center; border-top: 1px solid #e2e8f0;">
               <p style="margin: 0 0 8px 0; font-weight: 600; color: #2563eb; font-size: 14px;">REALTY EXPERTS</p>
               <p style="margin: 0 0 8px 0; color: #64748b; font-size: 13px;">"Our Experience is the Difference"</p>
-              <p style="margin: 0; color: #64748b; font-size: 13px;">Daily Market Glance · ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
+              <p style="margin: 0; color: #64748b; font-size: 13px;">Daily Market Glance · February 6, 2026</p>
             </td>
           </tr>
 
@@ -274,24 +229,4 @@ function generateHTML(data) {
     </tr>
   </table>
 </body>
-</html>`;
-}
-
-// Main execution
-const args = process.argv.slice(2);
-const jsonFile = args[0] || 'daily-market-template.json';
-
-if (!fs.existsSync(jsonFile)) {
-  console.error(`Error: File "${jsonFile}" not found`);
-  process.exit(1);
-}
-
-const data = loadData(jsonFile);
-const html = generateHTML(data);
-const dateForFile = data.date.replace(/\//g, '');
-const outputFile = `daily-market-glance-${dateForFile}.html`;
-
-fs.writeFileSync(outputFile, html);
-console.log(`✅ Generated: ${outputFile}`);
-console.log(`📧 Subject: "At a Glance" Local Housing STATS and News ${data.date}`);
-console.log(`🌐 Web View: https://user8888-level3.github.io/RealtyExperts-Daily-Email/${outputFile}`);
+</html>
