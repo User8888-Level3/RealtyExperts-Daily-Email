@@ -144,6 +144,68 @@ function generateHTML(data) {
           <tr>
             <td style="padding: 40px;">
 
+              <!-- Image 1 -->
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 24px 0;">
+                <tr>
+                  <td align="center">
+                    <img src="https://raw.githubusercontent.com/User8888-Level3/RealtyExperts-Daily-Email/main/RE-Daily-1-${dateForFile}.png" alt="Local Housing Statistics" width="100%" class="clickable-image" onclick="openLightbox(this.src)" style="display: block; max-width: 100%; height: auto; cursor: zoom-in;">
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Image 2 -->
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 35px 0;">
+                <tr>
+                  <td align="center">
+                    <img src="https://raw.githubusercontent.com/User8888-Level3/RealtyExperts-Daily-Email/main/RE-Daily-2-${dateForFile}.png" alt="Market Analysis Chart" width="100%" class="clickable-image" onclick="openLightbox(this.src)" style="display: block; max-width: 100%; height: auto; cursor: zoom-in;">
+                  </td>
+                </tr>
+              </table>
+
+              <!-- REAL ESTATE Section -->
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 35px;">
+                <tr>
+                  <td>
+                    <h2 style="margin: 0 0 16px 0; font-size: 20px; font-weight: 700; color: #ea580c; padding-bottom: 10px; border-bottom: 3px solid #ea580c;">
+                      🏠 REAL ESTATE
+                    </h2>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 12px;">
+                      <tr>
+                        <td width="48%" style="vertical-align: top;">
+                          <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #ea580c;  text-align: center;">
+                            <tr>
+                              <td>
+                                <div style="font-size: 13px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">30-Year</div>
+                                <div style="font-size: 32px; font-weight: 700; color: #1e293b;">${data.real_estate.rate_30year}</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td width="4%"></td>
+                        <td width="48%" style="vertical-align: top;">
+                          <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #ea580c;  text-align: center;">
+                            <tr>
+                              <td>
+                                <div style="font-size: 13px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">15-Year</div>
+                                <div style="font-size: 32px; font-weight: 700; color: #1e293b;">${data.real_estate.rate_15year}</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #ea580c;">
+                      <tr>
+                        <td style="font-size: 15px; color: #334155;">
+                          <div style="margin: 0 0 16px 0; font-weight: 700; font-size: 16px;">${data.real_estate.homebuilder}</div>
+                          ${formatCommentary(data.real_estate.commentary)}
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
               <!-- STOCKS Section -->
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 35px;">
                 <tr>
@@ -239,68 +301,6 @@ function generateHTML(data) {
                   </td>
                 </tr>
               </table>` : ''}
-
-              <!-- REAL ESTATE Section -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 35px;">
-                <tr>
-                  <td>
-                    <h2 style="margin: 0 0 16px 0; font-size: 20px; font-weight: 700; color: #ea580c; padding-bottom: 10px; border-bottom: 3px solid #ea580c;">
-                      🏠 REAL ESTATE
-                    </h2>
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 12px;">
-                      <tr>
-                        <td width="48%" style="vertical-align: top;">
-                          <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #ea580c;  text-align: center;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 13px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">30-Year</div>
-                                <div style="font-size: 32px; font-weight: 700; color: #1e293b;">${data.real_estate.rate_30year}</div>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                        <td width="4%"></td>
-                        <td width="48%" style="vertical-align: top;">
-                          <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #ea580c;  text-align: center;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 13px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">15-Year</div>
-                                <div style="font-size: 32px; font-weight: 700; color: #1e293b;">${data.real_estate.rate_15year}</div>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-                    <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f8fafc; border-left: 4px solid #ea580c;">
-                      <tr>
-                        <td style="font-size: 15px; color: #334155;">
-                          <div style="margin: 0 0 16px 0; font-weight: 700; font-size: 16px;">${data.real_estate.homebuilder}</div>
-                          ${formatCommentary(data.real_estate.commentary)}
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-
-              <!-- Image 1 -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 24px 0;">
-                <tr>
-                  <td align="center">
-                    <img src="https://raw.githubusercontent.com/User8888-Level3/RealtyExperts-Daily-Email/main/RE-Daily-1-${dateForFile}.png" alt="Local Housing Statistics" width="100%" class="clickable-image" onclick="openLightbox(this.src)" style="display: block; max-width: 100%; height: auto; cursor: zoom-in;">
-                  </td>
-                </tr>
-              </table>
-
-              <!-- Image 2 -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 24px 0;">
-                <tr>
-                  <td align="center">
-                    <img src="https://raw.githubusercontent.com/User8888-Level3/RealtyExperts-Daily-Email/main/RE-Daily-2-${dateForFile}.png" alt="Market Analysis Chart" width="100%" class="clickable-image" onclick="openLightbox(this.src)" style="display: block; max-width: 100%; height: auto; cursor: zoom-in;">
-                  </td>
-                </tr>
-              </table>
 
             </td>
           </tr>
