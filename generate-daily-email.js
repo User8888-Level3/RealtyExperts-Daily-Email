@@ -33,6 +33,9 @@ function formatCommentary(text) {
           }
         } else if (trimmed.startsWith('📍')) {
           html += `<div style="margin: 20px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">${trimmed}</div>`;
+        } else if (trimmed.startsWith('o ')) {
+          // Nested list items (open houses, etc) - normal weight
+          html += `<div style="margin: 6px 0; padding-left: 20px; line-height: 1.8; color: #334155;">${trimmed}</div>`;
         } else if (trimmed) {
           // First line before bullets should be bold
           if (isFirstLine && trimmed.endsWith(':')) {
