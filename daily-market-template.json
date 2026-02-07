@@ -1,30 +1,30 @@
 {
-  "date": "02/06/26",
-  "time": "08:03",
+  "date": "02/07/26",
+  "time": "08:00",
   "stocks": {
-    "sp500": "6,798 (-1.23%)",
-    "dow": "48,909 (-1.20%)",
-    "nasdaq": "22,541 (-1.59%)",
-    "note": "*Numbers as of market close on Feb 5th",
-    "news": "Even Amazon (AMZN -4.42%) wasn't safe from yesterday's downturn, getting punished after its earnings report."
+    "sp500": "6,930.54 (+1.94%)",
+    "dow": "50,115.67 (+2.47%)",
+    "nasdaq": "23,026.20 (+2.15%)",
+    "note": "*Numbers as of market close on Feb 6th",
+    "news": "Markets rebounded strongly on Friday, with all major indices posting solid gains heading into the Super Bowl weekend."
   },
   "economy": {
-    "us10year": "4.19% (-0.09%)",
-    "gold": "$4,811 (-2.39%)",
-    "silver": "$73.68 (-13.01%)",
-    "note": "*Numbers as of 4:15pm ET Feb 5th",
-    "commentary": "U.S. employers announced 108,435 layoffs for the month, up 118% from the same period a year ago and 205% from December 2025. The total marked the highest for any January since 2009.\n\nThe chain, owned by Yum! Brands (YUM +0.95%) said it will close around 150 stores throughout the country."
+    "us10year": "4.22% (+0.03%)",
+    "gold": "$4,836.98 (+0.54%)",
+    "silver": "$78.46 (+6.49%)",
+    "note": "*Numbers as of 4:15pm ET Feb 6th",
+    "commentary": "Treasury yields climbed slightly as investors assess economic data and Fed policy outlook. Gold continued its strong performance, while silver saw impressive gains recovering from recent losses."
   },
   "crypto": {
-    "btc": "$63,632 (-12.85%)",
-    "eth": "$1,875 (-12.54%)",
-    "xrp": "$1.45 (-22.01%)",
-    "commentary": "For years, Bitcoin has closely tracked the overall tech market and the Nasdaq composite.\n\nBut yesterday's price action was another sign that the two assets might be decoupling (breaking up)."
+    "btc": "$69,161.27 (+8.69%)",
+    "eth": "$2,072.31 (+10.52%)",
+    "xrp": "$1.43 (-1.38%)",
+    "commentary": "Bitcoin and Ethereum posted strong weekend trading gains, recovering from recent declines. The crypto market showed renewed strength as weekend liquidity improved and sentiment shifted more positive."
   },
   "real_estate": {
-    "rate_30year": "6.17%",
-    "rate_15year": "5.75%",
-    "homebuilder": "Cooler Markets, Hotter Deals",
-    "commentary": "The housing market cooled last week according to Realtor.com.\n\nBut that could mean a shift to a buyer's market:\n• Buyers have more homes to choose from, and pricing getting more competitive.\n• The median list price fell 2.4% year-over-year.\n\n📍 Alameda County (Fremont Focus)\n\nResidential Market (Feb 2026 Update)\n• Market Status: Fremont remains a \"Seller's Market,\" though it is cooling slightly compared to the frenzied pace of last year.\n• Median Price: The median list price in Fremont is currently hovering around $1.65M.\n• Inventory: Inventory has ticked up slightly to 56 active listings (up from last month), giving buyers a few more options. However, competition remains stiff for move-in ready homes.\n• Affordable Housing Opportunity: The City of Fremont has a \"Below Market Price\" (BMP) townhome available for application (Deadline: Feb 20, 2026). This is a brand-new 3-bedroom unit priced significantly under market value (~$364k), aimed at qualifying middle-income households.\n• H Mart Expansion: Excitement continues to build around H Mart's announcement that it is planning to open its largest U.S. location in Fremont. This remains a top topic of local conversation and excitement.\n\nTraffic & Closures: Major road closures are in effect around the stadium (Tasman Dr, Great America Pkwy). Traffic is dense throughout Santa Clara County as an estimated 90,000 visitors have descended on the region."
+    "rate_30year": "6.15%",
+    "rate_15year": "5.72%",
+    "homebuilder": "The Super Bowl Effect",
+    "commentary": "The biggest real estate factor this weekend is logistics. With Super Bowl LX festivities dominating Santa Clara and overflow traffic affecting Milpitas and Fremont, real estate activity is experiencing a unique disruption:\n• Open House Logistics: While many open houses are proceeding as scheduled today, real estate agents are advising buyers to plan routes carefully to avoid traffic snarls around I-880 and Hwy 237.\n• Buyer Competition: Expect slightly thinner crowds at open houses today and tomorrow as casual lookers attend Super Bowl events (like the Tailgate at Great Mall). This offers a strategic window homes with less immediate competition.\n\n📍 Fremont & Alameda County\n\nMarket Status (Feb 7): Strong Seller's Market\n• Inventory Update: Inventory has ticked up slightly to 56 active listings as of this morning, but demand remains high with a Market Action Index of 67 (out of 100).\n• Median List Price: Currently hovering around $1.65 million.\n• Affordable Housing Opportunity: The City of Fremont has a notable \"Below Market Price\" (BMP) opportunity open right now. A brand-new townhome on Fremont Blvd is available for ~$364k for eligible income-qualified applicants. The deadline to apply is coming up on February 20, 2026, making this a key action item this weekend for first-time buyers.\n• Today's Open Houses (Examples):\n  o New Construction: 43257 Newport Dr (5 bed, 4 bath) — Listed at ~$3.3M.\n  o Single Family: 34504 Willbridge Ter (3 bed, 3 bath) — Listed at ~$1.85M.\n  o Townhouse: 38860 Garibaldi Cmn — Listed just under $1M ($965k), expected to draw heavy interest due to the sub-$1M price point."
   }
 }
