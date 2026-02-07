@@ -48,7 +48,12 @@ function formatCommentary(text) {
       });
       return html;
     } else {
-      return `<div style="margin: 0 0 16px 0; line-height: 1.8;">${para.trim()}</div>`;
+      // Check if this paragraph is a location marker
+      const trimmed = para.trim();
+      if (trimmed.startsWith('📍')) {
+        return `<div style="margin: 20px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">${trimmed}</div>`;
+      }
+      return `<div style="margin: 0 0 16px 0; line-height: 1.8;">${trimmed}</div>`;
     }
   }).join('');
 }
