@@ -48,10 +48,12 @@ function formatCommentary(text) {
       });
       return html;
     } else {
-      // Check if this paragraph is a location marker
+      // Check if this paragraph is a location marker or header
       const trimmed = para.trim();
       if (trimmed.startsWith('📍')) {
         return `<div style="margin: 20px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">${trimmed}</div>`;
+      } else if (trimmed.endsWith(':')) {
+        return `<div style="margin: 0 0 10px 0; line-height: 1.8; font-weight: 700; color: #1e293b;">${trimmed}</div>`;
       }
       return `<div style="margin: 0 0 16px 0; line-height: 1.8;">${trimmed}</div>`;
     }
