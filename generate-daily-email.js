@@ -37,8 +37,8 @@ function formatCommentary(text) {
           // Nested list items (open houses, etc) - normal weight
           html += `<div style="margin: 6px 0; padding-left: 20px; line-height: 1.8; color: #334155;">${trimmed}</div>`;
         } else if (trimmed) {
-          // First line before bullets should be bold
-          if (isFirstLine && trimmed.endsWith(':')) {
+          // Headers ending with colon should be bold
+          if (trimmed.endsWith(':')) {
             html += `<div style="margin: 0 0 10px 0; line-height: 1.8; font-weight: 700; color: #1e293b;">${trimmed}</div>`;
           } else {
             html += `<div style="margin: 10px 0; line-height: 1.8; font-weight: 600;">${trimmed}</div>`;
