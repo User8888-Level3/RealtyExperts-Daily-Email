@@ -160,27 +160,33 @@ function generateHTML(data) {
 
           <!-- Header -->
           <tr>
-            <td style="background-color: #2563eb; padding: 30px 40px; text-align: center;">
-              <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2024/02/cropped-2022_Logo_WhiteBox-Realtor-1.jpg" alt="REALTY EXPERTS®" width="250" style="display: block; margin: 0 auto 15px; max-width: 100%; height: auto;">
-              <h1 style="margin: 0 0 8px 0; font-size: 28px; font-weight: 700; color: #ffffff;">Daily Market Glance</h1>
-              <p style="margin: 0; font-size: 14px; color: rgba(255,255,255,0.9);">${data.date} - ${data.time}</p>
+            <td style="background-color: #2563eb; padding: 0;">
+              <table width="100%" cellpadding="30" cellspacing="0" border="0">
+                <tr>
+                  <td style="background-color: #2563eb; padding: 30px 40px; text-align: center;">
+                    <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2024/02/cropped-2022_Logo_WhiteBox-Realtor-1.jpg" alt="REALTY EXPERTS®" width="250" style="display: block; margin: 0 auto 15px; max-width: 100%; height: auto;">
+                    <div style="margin: 0 0 8px 0; font-size: 28px; font-weight: 700; color: #ffffff;">Daily Market Glance</div>
+                    <div style="margin: 0; font-size: 14px; color: #ffffff; opacity: 0.9;">${data.date} - ${data.time}</div>
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
 
           <!-- Agent Hub Banner -->
           <tr>
-            <td style="background-color: #f8fafc; padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
+            <td style="background-color: #f8fafc; padding: 0; border-bottom: 2px solid #e2e8f0;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td width="70%" style="vertical-align: middle; padding-right: 20px;">
-                    <div style="font-size: 15px; color: #1e293b; line-height: 1.6;">
-                      <strong style="font-size: 16px;">📱 <a href="https://teamrealtyexperts.com/share/0c870e8a-bfed-4aba-ac41-b64d8960f14c" style="color: #2563eb; text-decoration: none;">View Full Post on Agent Hub</a></strong>
-                      <div style="margin-top: 8px; color: #475569;">
-                        Scan the QR code or visit our Agent Hub for the complete market update. Contact the front desk for your access code.
-                      </div>
+                  <td width="70%" style="background-color: #f8fafc; vertical-align: middle; padding: 20px 20px 20px 40px;">
+                    <div style="font-size: 16px; color: #1e293b; line-height: 1.6; font-weight: 700; margin-bottom: 8px;">
+                      📱 <a href="https://teamrealtyexperts.com/share/0c870e8a-bfed-4aba-ac41-b64d8960f14c" style="color: #2563eb; text-decoration: none; font-weight: 700;">View Full Post on Agent Hub</a>
+                    </div>
+                    <div style="font-size: 15px; color: #475569; line-height: 1.6;">
+                      Scan the QR code or visit our Agent Hub for the complete market update. Contact the front desk for your access code.
                     </div>
                   </td>
-                  <td width="30%" style="vertical-align: middle; text-align: center;">
+                  <td width="30%" style="background-color: #f8fafc; vertical-align: middle; text-align: center; padding: 20px 40px 20px 20px;">
                     <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2026/02/note-qr-0c870e8a.png" alt="Agent Hub QR Code" width="100" style="display: block; margin: 0 auto; max-width: 100px; height: auto;">
                   </td>
                 </tr>
