@@ -15,13 +15,6 @@ function formatCommentary(text) {
   const paragraphs = text.split('\n\n');
 
   return paragraphs.map(para => {
-    // Check if paragraph is an image embed [IMAGE:url]
-    const imageMatch = para.trim().match(/^\[IMAGE:(.+)\]$/);
-    if (imageMatch) {
-      const imageUrl = imageMatch[1];
-      return `<div style="margin: 16px 0; text-align: center;"><img src="${imageUrl}" alt="Image" style="max-width: 100%; height: auto; border-radius: 8px;"></div>`;
-    }
-
     // Check if paragraph contains bullet points
     if (para.includes('•')) {
       const lines = para.split('\n');
