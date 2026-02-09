@@ -1,30 +1,30 @@
 {
-  "date": "02/07/26",
-  "time": "10:10",
+  "date": "02/09/26",
+  "time": "08:00",
   "stocks": {
-    "sp500": "6,930.54 (+1.94%)",
-    "dow": "50,115.67 (+2.47%)",
-    "nasdaq": "23,026.20 (+2.15%)",
+    "sp500": "6,932.00 (+1.97%)",
+    "dow": "50,116.00 (+2.47%)",
+    "nasdaq": "23,031.00 (+2.18%)",
     "note": "*Numbers as of market close on Feb 6th",
-    "news": "Markets rebounded strongly on Friday, with all major indices posting solid gains heading into the Super Bowl weekend."
+    "news": "The Dow Jones surpassed the 50,000 level for the first time ever, and 66 stocks hit their 52-week highs. Nvidia (NVDA +7.92%) and Broadcom (AVGO +7.08%) both traded up after big declines earlier in the week."
   },
   "economy": {
-    "us10year": "4.22% (+0.03%)",
-    "gold": "$4,836.98 (+0.54%)",
-    "silver": "$78.46 (+6.49%)",
-    "note": "*Numbers as of 4:15pm ET Feb 6th",
-    "commentary": "Treasury yields climbed slightly as investors assess economic data and Fed policy outlook. Gold continued its strong performance, while silver saw impressive gains recovering from recent losses."
+    "us10year": "4.21% (-0.01%)",
+    "gold": "$4,966.00 (+2.03%)",
+    "silver": "$77.80 (+0.52%)",
+    "note": "*Numbers as of 4:15pm ET Feb 7th",
+    "commentary": "Treasury yields dipped slightly as investors digested economic data. Gold surged to new highs above $4,900, continuing its strong 2026 performance amid global economic uncertainty. Silver posted modest gains, maintaining its positive momentum."
   },
   "crypto": {
-    "btc": "$69,161.27 (+8.69%)",
-    "eth": "$2,072.31 (+10.52%)",
-    "xrp": "$1.43 (-1.38%)",
-    "commentary": "Bitcoin and Ethereum posted strong weekend trading gains, recovering from recent declines. The crypto market showed renewed strength as weekend liquidity improved and sentiment shifted more positive."
+    "btc": "$69,345.00 (-1.67%)",
+    "eth": "$2,085.00 (+1.13%)",
+    "xrp": "$1.43 (-2.50%)",
+    "commentary": "Richard Farr of Pivotus Partners says that Bitcoin isn't good for transactions and no central banks will want to own it. Michael Burry has also recently called Bitcoin \"a purely speculative asset.\""
   },
   "real_estate": {
     "rate_30year": "6.15%",
     "rate_15year": "5.72%",
-    "homebuilder": "",
-    "commentary": "📍 Fremont & Alameda County\n\nMarket Status (Feb 7): Strong Seller's Market\n• Inventory Update: Inventory has ticked up slightly to 56 active listings as of this morning, but demand remains high with a Market Action Index of 67 (out of 100).\n• Median List Price: Currently hovering around $1.65 million.\n• Affordable Housing Opportunity: The City of Fremont has a notable \"Below Market Price\" (BMP) opportunity open right now. A brand-new townhome on Fremont Blvd is available for ~$364k for eligible income-qualified applicants. The deadline to apply is coming up on February 20, 2026, making this a key action item this weekend for first-time buyers.\n• Today's Open Houses (Examples):\n  o New Construction: 43257 Newport Dr (5 bed, 4 bath) — Listed at ~$3.3M.\n  o Single Family: 34504 Willbridge Ter (3 bed, 3 bath) — Listed at ~$1.85M.\n  o Townhouse: 38860 Garibaldi Cmn — Listed just under $1M ($965k), expected to draw heavy interest due to the sub-$1M price point.\n\nThe Super Bowl Effect:\n\nThe biggest real estate factor this weekend is logistics. With Super Bowl LX festivities dominating Santa Clara and overflow traffic affecting Milpitas and Fremont, real estate activity is experiencing a unique disruption:\n• Open House Logistics: While many open houses are proceeding as scheduled today, real estate agents are advising buyers to plan routes carefully to avoid traffic snarls around I-880 and Hwy 237.\n• Buyer Competition: Expect slightly thinner crowds at open houses today and tomorrow as casual lookers attend Super Bowl events (like the Tailgate at Great Mall). This offers a strategic window homes with less immediate competition."
+    "homebuilder": "Homebuilders Under The Microscope:\n\nHomebuilders like Lennar (LEN -1.17%) were trading higher for most of last week. But then, news came that the Department of Justice is looking into builders for potential antitrust violations. The White House is considering looking into whether companies like Lennar and D.R. Horton (DHI -1.18%) have been unfairly holding back on building new homes.\n\nHigh-Tech Housing:\n\nThe founder of Uber (UBER -0.59%) is looking into making a new bet: apartments. But not just any old apartments: he wants to create new, high-tech apartment buildings aimed at young professionals. The buildings would feature smart-home tech and also communal areas for socialization - kinda like dorm buildings but for adults.",
+    "commentary": "📍 Fremont & Alameda County\n\nAs of today, February 9, 2026, the local market is waking up from a slow winter. The big headline is a surge in inventory for Santa Clara County, while Alameda County remains tighter. For Fremont specifically, the news is driven by new construction opportunities and a stabilizing market where buyers finally have some leverage on pricing, unless the home is \"turnkey.\"\n\nData from transactions finalized just before and over the weekend reveals a mixed market in Fremont. Buyers are no longer automatically paying over asking price; condition is everything.\n• Over Asking: A 3-bed home on Merlin Ct (94539) closed Feb 4 for $3.4M (27% over list).\n• Under Asking: A 4-bed home on Ottawa Way (94539) sold for $2.06M (1% under list) after sitting for 85 days.\n• Takeaway: The \"frenzy\" is reserved only for perfect homes. If a home needs work, it is sitting, and you can negotiate.\n\nMarket Vital Signs:\n• Inventory: Active listings in Fremont have ticked up slightly.\n• Flood Risk: New insurance maps and data highlighted over the weekend show Fremont has a moderate fire risk (47% of properties) but remains lower risk for severe flooding.\n\n[IMAGE:https://harvinder.dscloud.me/blog/wp-content/uploads/2026/02/2026-superbowl.jpg]\n\nThe Super Bowl LX Effect:\n\nThe biggest news dominating the entire region today is the fallout from Super Bowl LX (60), which was played yesterday at Levi's Stadium in Santa Clara (bordering Milpitas).\n• The Game: The Seattle Seahawks defeated the New England Patriots (29-13).\n• Transit Success: VTA reports record-breaking ridership yesterday, transporting over 30,000 fans to the stadium, far exceeding expectations.\n• Violence in San Jose: The celebration was marred by violence. Five people were shot late Sunday night near San Pedro Square in downtown San Jose, just hours after the game ended. This is heavily impacting morning news in Santa Clara County."
   }
 }
