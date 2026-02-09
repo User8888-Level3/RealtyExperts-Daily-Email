@@ -5,20 +5,21 @@
     "sp500": "6,916.00 (-0.23%)",
     "dow": "49,957.00 (-0.32%)",
     "nasdaq": "22,916.00 (-0.50%)",
-    "note": "*Numbers as of market open on Feb 9th",
+    "note": "*Numbers as of 10:00am ET on Feb 9th",
     "news": "US stocks started the week lower, trimming the sharp rebound from Friday's session. The S&P 500 and Dow fell 0.3%, while the tech-heavy Nasdaq dropped 0.5% as markets assess risks around software stocks."
   },
   "economy": {
     "us10year": "4.22% (+0.01%)",
     "gold": "$5,032.00 (+1.33%)",
     "silver": "$81.00 (+4.11%)",
-    "note": "*Numbers as of 8:30am ET Feb 9th",
+    "note": "*Numbers as of 8:30am ET on Feb 9th",
     "commentary": "Treasury yields rose slightly to 4.22% as investors digest economic data ahead of a data-heavy week. Gold surged above $5,000 per ounce for the first time, continuing its historic rally amid global economic uncertainty. Silver jumped over 5% driven by easing inflation expectations and a weaker dollar."
   },
   "crypto": {
     "btc": "$70,000.00 (+0.94%)",
     "eth": "$2,149.00 (+3.07%)",
     "xrp": "$1.40 (-2.10%)",
+    "note": "*Numbers as of 9:00am ET on Feb 9th",
     "commentary": "Bitcoin hovers around the $70,000 level as crypto markets consolidate after last week's volatility. Ethereum holds above $2,000 support with a modest gain. XRP extends its decline, trading around $1.40."
   },
   "real_estate": {

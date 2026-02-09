@@ -442,6 +442,7 @@ function generateHTML(data) {
                         </td>
                       </tr>
                     </table>
+                    ${data.crypto.note ? `<div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">${data.crypto.note}</div>` : ''}
                     <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #fffbeb; border-top: 4px solid #f59e0b;">
                       <tr>
                         <td style="font-size: 15px; color: #334155;">${formatCommentary(data.crypto.commentary)}</td>
