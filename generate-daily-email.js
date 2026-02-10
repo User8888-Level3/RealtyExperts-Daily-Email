@@ -310,7 +310,7 @@ function generateHTML(data) {
                     <div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">${data.stocks.note}</div>
                     <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #eff6ff; border-top: 4px solid #2563eb;">
                       <tr>
-                        <td style="font-size: 15px; color: #334155;"><div style="margin: 0; line-height: 1.8;">${data.stocks.news}</div></td>
+                        <td style="font-size: 15px; color: #334155;">${formatCommentary(data.stocks.news)}</td>
                       </tr>
                     </table>
                   </td>
@@ -466,13 +466,12 @@ function generateHTML(data) {
                     <p style="margin: 0; color: #94a3b8; font-size: 11px; line-height: 1.6; border-top: 1px solid #e2e8f0; padding-top: 14px;">Disclaimer: The market data, rates, and information provided in this email are for informational purposes only and should not be considered financial advice. Figures are sourced from third-party providers and may be delayed or subject to change. Always verify rates and data with your lender or financial advisor before making any decisions.</p>
                     <p style="margin: 10px 0 0 0; color: #94a3b8; font-size: 10px; line-height: 1.5;">
                       <em>Sources:</em><br>
-                      <a href="https://www.cnbc.com/2026/02/04/stock-market-today-live-updates.html" style="color: #94a3b8; text-decoration: none;">CNBC Market Updates</a> ·
-                      <a href="https://fortune.com/article/current-price-of-gold-02-09-2026/" style="color: #94a3b8; text-decoration: none;">Fortune Gold</a> ·
-                      <a href="https://fortune.com/article/current-price-of-silver-2-9-2026/" style="color: #94a3b8; text-decoration: none;">Fortune Silver</a> ·
+                      <a href="https://www.cnbc.com/markets/" style="color: #94a3b8; text-decoration: none;">CNBC Markets</a> ·
+                      <a href="https://www.fortune.com/section/finance/" style="color: #94a3b8; text-decoration: none;">Fortune</a> ·
                       <a href="https://www.coindesk.com/" style="color: #94a3b8; text-decoration: none;">CoinDesk</a> ·
                       <a href="https://www.nerdwallet.com/mortgages/mortgage-rates" style="color: #94a3b8; text-decoration: none;">NerdWallet</a> ·
-                      <a href="https://www.cbsnews.com/news/todays-mortgage-interest-rates-february-9-2026/" style="color: #94a3b8; text-decoration: none;">CBS News</a> ·
-                      <a href="https://www.reuters.com/business/world-at-work/super-bowl-hangover-record-number-employees-miss-work-monday-poll-suggests-2026-02-06/" style="color: #94a3b8; text-decoration: none;">Reuters</a>
+                      <a href="https://www.cbsnews.com/moneywatch/" style="color: #94a3b8; text-decoration: none;">CBS News</a> ·
+                      <a href="https://www.reuters.com/markets/" style="color: #94a3b8; text-decoration: none;">Reuters</a>
                     </p>
                     <p style="margin: 10px 0 0 0; color: #94a3b8; font-size: 11px; line-height: 1.6;">If you would like to stop receiving this email, simply reply with <strong style="color: #64748b;">UNSUBSCRIBE</strong>.</p>
                   </td>
