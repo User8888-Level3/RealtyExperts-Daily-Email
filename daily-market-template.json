@@ -1,31 +1,31 @@
 {
-  "date": "02/10/26",
+  "date": "02/11/26",
   "time": "07:53",
   "stocks": {
-    "sp500": "6,965 (+0.47%)",
-    "dow": "50,136 (+0.04%)",
-    "nasdaq": "23,239 (+0.90%)",
-    "note": "*Numbers as of market close on Feb 9th",
-    "news": "Novo Nordisk (NVO +3.63%), the company behind Ozempic, is suing Hims and Hers (+1.03%).\n\nWhy? Novo says Hims was illegally offering a copycat version of the weight-loss drug.\n\nHims pulled its weight-loss drugs at the end of last week after the FDA said it would investigate Hims.\n\nDeal Of The Century\n\nAlphabet (GOOG +0.40%), the parent company of Google, says it's selling $15B worth of bonds.\n\nThe bonds will be issued in USD, with additional bond sales in Swiss francs and even 100-year bonds in pounds sterling.\n\n• AI is creating opportunities for high-grade corporate debt sales."
+    "sp500": "6,942 (-0.33%)",
+    "dow": "50,188 (+0.10%)",
+    "nasdaq": "23,102 (-0.59%)",
+    "note": "*Numbers as of market close on Feb 10th",
+    "news": "Datadog's New Tricks:\n\nDatadog (DDOG +13.74%) was the top dog in the S&P 500 yesterday, rising over 15% at one point.\n\nWhy? It beat Q4 2025 expectations, and its revenue was up 29%.\n\nDatadog sells monitoring and analytics to AI companies like Amazon (AMZN -0.87%) and OpenAI.\n\nFlashback: Datadog stock had fallen 16% during the \"SaaSpocalypse\", and is still slightly down YTD.\n\n(A)I Don't Need You:\n\nFinancial services stocks fell on Tuesday because an AI software that can pretty much do the same thing was launched.\n\nA Bloomberg analyst says AI could reduce the need for traditional, in-person financial services.\n\nCharles Schwab (SCHW -7.42%), Raymond James (RJF -8.75%), and LPL (LPLA -8.31%) all dropped over 8% at one point on the news.\n\nBP Hits Pause:\n\nBritish oil giant BP (BP -5.75%) said it will take a break from stock buybacks."
   },
   "economy": {
-    "us10year": "4.20% (-0.00%)",
-    "gold": "$5,061 (+1.90%)",
-    "silver": "$83.22 (+6.97%)",
-    "note": "*Numbers as of 4:40pm ET Feb 9th",
-    "commentary": "The Dollar Drop\n\nThe U.S. dollar just hit its lowest point in more than four years.\n\nWhat does that mean? Basically, other currencies are rising against the dollar.\n\nSome investors say the dollar has been weak because of economic uncertainty from policies like tariffs."
+    "us10year": "4.14% (-0.06%)",
+    "gold": "$5,029 (-0.51%)",
+    "silver": "$80.90 (-2.00%)",
+    "note": "*Numbers as of 4:15pm ET Feb 10th",
+    "commentary": "December To Forget:\n\nLexus might run a \"December to Remember\" sales event every year.\n\nBut last year was a December to Forget for retailers.\n\nRetail sales numbers came in flat for the month, below expectations.\n\nSo what? Consumers pulled back their spending, which can be a warning sign for the overall economy.\n\nThe AI Paradox:\n\nAI has been promised to make life easier and eventually even replace some workers.\n\nBut a new study from Harvard shows that so far, the opposite is happening: AI is making work more intense.\n\nThat's because instead of reducing workload, employees are now just adding more tasks because AI allows them to do more."
   },
   "crypto": {
-    "btc": "$69,951 (-0.51%)",
-    "eth": "$2,091 (+0.10%)",
-    "xrp": "$1.44 (+0.87%)",
-    "note": "*Numbers as of 4:40 pm ET on Feb 9th",
-    "commentary": "Companies that load up on crypto have taken a big hit in the last month, with Strategy (MSTR +2.60%) and Bitmine (BMNR +4.89%) each down more than 10%.\n\nRefresher: Strategy's business model is to buy a bunch of Bitcoin, and Bitmine is doing the same but with Ethereum.\n\nBitmine's Tom Lee said the company is still buying the dip on Ethereum - even as the company sits on a big paper loss."
+    "btc": "$68,865 (-1.85%)",
+    "eth": "$2,012 (-4.36%)",
+    "xrp": "$1.40 (-2.58%)",
+    "note": "*Numbers as of 4:15 pm ET on Feb 10th",
+    "commentary": "Coinbase Falls:\n\nCoinbase (COIN -2.83%) shares fell after JPMorgan (JPM -1.19%) cut its price target by 27%.\n\nThe bank says crypto conditions aren't great right now: prices have fallen, and regulations are still not solidified.\n\nCoinbase has also had bigger price swings than Bitcoin itself, and is down nearly 50% in the last 6 months."
   },
   "real_estate": {
-    "rate_30year": "6.16%",
-    "rate_15year": "5.73%",
-    "homebuilder": "Slow Grow:\n\nHome prices are rising more slowly as of December 2025 according to a new report.\n\nA year-over-year growth rate of 0.9% is the lowest over 15 years.\n\nCities in U.S. Southern and Western states like Texas, Florida, and Hawaii are seeing actual dropping prices.",
-    "commentary": "🏗️ Alameda County News:\n\nThe \"stabilization\" trend is the main theme for Alameda County today.\n\n• Price Divergence: Single-family homes are holding steady with a median price of roughly $968,000, while the condo market is struggling, seeing year-over-year declines in the double digits in some areas.\n\n• Sales Activity: Interestingly, over the weekend and through yesterday (Feb 9), several homes in cities like Dublin and Oakland sold for 30% to 45% over asking, signaling that the \"bidding war\" culture isn't dead for move-in-ready properties.\n\n📍 Fremont Spotlight\n\nFremont continues to be one of the most resilient \"micro-markets\" in the East Bay.\n\n• Market Action Index: As of this week, Fremont holds a score of 67, categorizing it as a Strong Seller's Market. While this is a slight dip from last month's 69, it remains significantly higher than the national average.\n\n• Pricing: The median list price is presently hovering around $1,649,444.\n\n• Inventory: There is a slight uptick in choices for buyers, with 56 active listings this week. However, the median days on market is a crisp 18 days, meaning well-priced homes are still moving in under three weeks.\n\n🗝️ Key Takeaway for Today:\n\nIf you are looking in Fremont, the \"hot\" homes are still going pending in under 10 days. In Milpitas, the market is slightly more forgiving for buyers (34 days on average), but the lack of new listings means you have to act immediately when a property hits the MLS."
+    "rate_30year": "6.11%",
+    "rate_15year": "5.70%",
+    "homebuilder": "Here For A Long Time:\n\nRecently, homeowners in the U.S. have said we're here for a long time, not a good time.\n\n• The average person selling his/her house has lived in it for more than 8 years… double the average of around 4 years in 2000.\n\nThat means families are staying put for longer, leading to fewer overall sales in the real estate market.",
+    "commentary": "📊 California Statewide Update (Released Yesterday, Feb 10):\n\nIf you are keeping an eye on the macro trends, the California Association of Realtors (C.A.R.) released their Q4 2025 affordability report yesterday. It brought a sliver of good news: housing affordability in California saw a slight improvement compared to both last quarter and last year, driven by a dip in borrowing costs. However, it's still tight—a household still needs a minimum annual income of roughly $213,200 to qualify for a median-priced California home ($869,300).\n\n🏡 Alameda County: Spring Buyers Are Waking Up Early:\n\nAcross the board, the market is waking up ahead of the traditional spring rush.\n\n• Buyers Rushing Rates: Local real estate reports published earlier this week highlight that buyers who sat on the sidelines in late 2025 are cautiously re-entering the market to lock in current mortgage rates (currently hovering around 6.35%) before they potentially rise later in the year.\n\n• Pricing & Inventory: The median sale price in Alameda County is hovering around $950,000 to $968,000. Inventory remains tight—down about 8% year-over-year—meaning move-in-ready homes and condos in places like Oakland, Hayward, and Alameda are seeing a lot of foot traffic and quick sales.\n\n• Major AI Tech Win for Local Business: Fremont-headquartered semiconductor company Aehr Test Systems made major headlines today. They announced a massive strategic win, securing an initial production purchase order from a lead hyperscale customer. They will be providing their ultra-high-power \"Sonoma\" testing systems for next-generation AI processors, a great win for Fremont's local tech footprint."
   }
 }
