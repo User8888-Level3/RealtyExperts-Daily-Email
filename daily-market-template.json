@@ -1,6 +1,6 @@
 {
   "date": "02/11/26",
-  "time": "07:53",
+  "time": "08:22",
   "stocks": {
     "sp500": "6,942 (-0.33%)",
     "dow": "50,188 (+0.10%)",
@@ -25,7 +25,7 @@
   "real_estate": {
     "rate_30year": "6.11%",
     "rate_15year": "5.70%",
-    "homebuilder": "Here For A Long Time:\n\nRecently, homeowners in the U.S. have said we're here for a long time, not a good time.\n\n• The average person selling his/her house has lived in it for more than 8 years… double the average of around 4 years in 2000.\n\nThat means families are staying put for longer, leading to fewer overall sales in the real estate market.",
+    "homebuilder": "Here For A Long Time:\n\nRecently, homeowners in the U.S. have said we're here for a long time, not a good time.\n\n• The average person selling his/her house has lived in it for more than 8 years… double the average of around 4 years in 2000.\n\nThat means families are staying put for longer, leading to fewer overall sales in the real estate market.\n\nSource: https://www.realtor.com/news/trends/homeownership-tenure-record-q4-2025-attom/",
     "commentary": "📊 California Statewide Update (Released Yesterday, Feb 10):\n\nIf you are keeping an eye on the macro trends, the California Association of Realtors (C.A.R.) released their Q4 2025 affordability report yesterday. It brought a sliver of good news: housing affordability in California saw a slight improvement compared to both last quarter and last year, driven by a dip in borrowing costs. However, it's still tight—a household still needs a minimum annual income of roughly $213,200 to qualify for a median-priced California home ($869,300).\n\n🏡 Alameda County: Spring Buyers Are Waking Up Early:\n\nAcross the board, the market is waking up ahead of the traditional spring rush.\n\n• Buyers Rushing Rates: Local real estate reports published earlier this week highlight that buyers who sat on the sidelines in late 2025 are cautiously re-entering the market to lock in current mortgage rates (currently hovering around 6.35%) before they potentially rise later in the year.\n\n• Pricing & Inventory: The median sale price in Alameda County is hovering around $950,000 to $968,000. Inventory remains tight—down about 8% year-over-year—meaning move-in-ready homes and condos in places like Oakland, Hayward, and Alameda are seeing a lot of foot traffic and quick sales.\n\n• Major AI Tech Win for Local Business: Fremont-headquartered semiconductor company Aehr Test Systems made major headlines today. They announced a massive strategic win, securing an initial production purchase order from a lead hyperscale customer. They will be providing their ultra-high-power \"Sonoma\" testing systems for next-generation AI processors, a great win for Fremont's local tech footprint."
   }
 }
