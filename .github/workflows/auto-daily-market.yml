@@ -1,0 +1,78 @@
+name: Automated Daily Market Publishing
+
+on:
+  push:
+    paths:
+      - 'RE-Daily-*.png'
+      - 'daily-market-template.json'
+    branches:
+      - main
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  publish-daily-market:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Detect date from latest images
+        id: detect_date
+        run: |
+          # Find the most recently modified RE-Daily-1-*.png file
+          LATEST_IMAGE=$(ls -t RE-Daily-1-*.png 2>/dev/null | head -n 1)
+
+          if [ -z "$LATEST_IMAGE" ]; then
+            echo "No daily images found!"
+            exit 1
+          fi
+
+          # Extract date from filename (RE-Daily-1-MMDDYY.png)
+          DATE_STR=$(echo "$LATEST_IMAGE" | sed 's/RE-Daily-1-\(.*\)\.png/\1/')
+
+          echo "date=$DATE_STR" >> $GITHUB_OUTPUT
+          echo "Detected date: $DATE_STR"
+
+      - name: Run automation
+        env:
+          ADMIN_SESSION_TOKEN: ${{ secrets.ADMIN_SESSION_TOKEN }}
+        run: |
+          node automate-daily-market.js "${{ steps.detect_date.outputs.date }}" "$ADMIN_SESSION_TOKEN"
+
+      - name: Push generated files
+        run: |
+          git add .
+          git diff --staged --quiet || git commit -m "Automated: Daily market update for ${{ steps.detect_date.outputs.date }} [skip ci]"
+          git push origin main
+
+      - name: Create summary
+        run: |
+          echo "## 🎉 Daily Market Automation Complete!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Date:** ${{ steps.detect_date.outputs.date }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📊 Generated Files:" >> $GITHUB_STEP_SUMMARY
+          echo "- Agent Hub Post: https://teamrealtyexperts.com/share/[check logs]" >> $GITHUB_STEP_SUMMARY
+          echo "- Email: https://user8888-level3.github.io/RealtyExperts-Daily-Email/daily-market-glance-${{ steps.detect_date.outputs.date }}.html" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ All files pushed to repository and GitHub Pages" >> $GITHUB_STEP_SUMMARY
