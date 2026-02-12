@@ -48,13 +48,23 @@
     .clickable-image:hover {
       opacity: 0.9;
     }
+    /* Mobile responsive */
+    @media only screen and (max-width: 680px) {
+      .email-container {
+        width: 100% !important;
+        min-width: 100% !important;
+      }
+      .email-body {
+        padding: 20px !important;
+      }
+    }
   </style>
 </head>
 <body style="margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; background-color: #f0f4f8;">
   <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f0f4f8; padding: 20px 0;">
     <tr>
-      <td align="center">
-        <table width="650" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff;">
+      <td align="center" style="padding: 0 10px;">
+        <table width="650" cellpadding="0" cellspacing="0" border="0" class="email-container" style="background-color: #ffffff; max-width: 650px;">
 
           <!-- View in Browser Link -->
           <tr>
@@ -97,7 +107,7 @@
 
           <!-- Content -->
           <tr>
-            <td style="padding: 40px;">
+            <td class="email-body" style="padding: 40px;">
 
               <!-- Image 1 -->
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 24px 0;">
