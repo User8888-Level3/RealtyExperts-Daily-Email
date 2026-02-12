@@ -43,6 +43,10 @@ function log(message, type = 'info') {
   console.log(`${icons[type]} ${message}`);
 }
 
+function isCI() {
+  return process.env.CI === 'true' || process.env.GITHUB_ACTIONS === 'true';
+}
+
 function formatDate(date = new Date()) {
   const month = String(date.getMonth() + 1).padStart(2, '0');
   const day = String(date.getDate()).padStart(2, '0');
@@ -179,6 +183,12 @@ async function step2_pushToGitHub(images, dateStr) {
 
   // Add files
   execCommand(`git add ${images.image1} ${images.image2}`, 'Staging images');
+
+  // Skip commit/push in CI - let GitHub Actions workflow handle it
+  if (isCI()) {
+    log('Running in CI - files staged, workflow will commit/push', 'info');
+    return;
+  }
 
   // Check if there are changes to commit
   try {
@@ -318,12 +328,23 @@ async function step5_generateEmail(noteUrl, noteId, dateInfo) {
 
   // Push QR code to GitHub
   execCommand(`git add ${qrFilename}`, 'Staging QR code');
-  execCommand(`git commit -m "Add QR code for daily market ${dateInfo.mmddyy}"`, 'Committing QR code');
-  execCommand('git push origin main', 'Pushing QR code');
+
+  // Skip commit/push in CI - let GitHub Actions workflow handle it
+  if (!isCI()) {
+    execCommand(`git commit -m "Add QR code for daily market ${dateInfo.mmddyy}"`, 'Committing QR code');
+    execCommand('git push origin main', 'Pushing QR code');
+  } else {
+    log('Running in CI - QR code staged, workflow will commit/push', 'info');
+  }
 
   // Wait for QR code to be available
   const qrUrl = `${CONFIG.githubRawBase}/${qrFilename}`;
-  await waitForUrl(qrUrl);
+  if (!isCI()) {
+    await waitForUrl(qrUrl);
+  } else {
+    // In CI, QR code won't be available until workflow pushes, so skip wait
+    log('Skipping QR code URL wait in CI mode', 'info');
+  }
 
   log(`QR code available at: ${qrUrl}`, 'success');
 
@@ -361,11 +382,22 @@ async function step5_generateEmail(noteUrl, noteId, dateInfo) {
 
   // Push the HTML file
   execCommand(`git add ${htmlFileName}`, 'Staging email HTML');
-  execCommand(`git commit -m "Add daily market email ${dateInfo.mmddyy}"`, 'Committing email');
-  execCommand('git push origin main', 'Pushing email');
+
+  // Skip commit/push in CI - let GitHub Actions workflow handle it
+  if (!isCI()) {
+    execCommand(`git commit -m "Add daily market email ${dateInfo.mmddyy}"`, 'Committing email');
+    execCommand('git push origin main', 'Pushing email');
+  } else {
+    log('Running in CI - email HTML staged, workflow will commit/push', 'info');
+  }
 
   // Wait for email to be available
-  await waitForUrl(emailUrl);
+  if (!isCI()) {
+    await waitForUrl(emailUrl);
+  } else {
+    // In CI, email won't be available until workflow pushes, so skip wait
+    log('Skipping email URL wait in CI mode', 'info');
+  }
 
   log(`Email generated and available at: ${emailUrl}`, 'success');
 
