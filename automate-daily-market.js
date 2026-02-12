@@ -232,7 +232,7 @@ async function step4_createAgentHubPost(imageUrls, dateInfo, sessionToken) {
 </div>
 
 <h2 style="color: #ea580c; border-left: 4px solid #ea580c; padding-left: 12px; margin: 30px 0 15px 0;">🏠 Real Estate Market Update</h2>
-<div style="background: #fff7ed; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+<div style="padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid rgba(234, 88, 12, 0.2);">
   <p><strong>30-Year Fixed:</strong> ${templateData.real_estate.rate_30year}</p>
   <p><strong>15-Year Fixed:</strong> ${templateData.real_estate.rate_15year}</p>
   <div style="margin-top: 15px; line-height: 1.8;">
@@ -242,22 +242,22 @@ async function step4_createAgentHubPost(imageUrls, dateInfo, sessionToken) {
 </div>
 
 <h2 style="color: #2563eb; border-left: 4px solid #2563eb; padding-left: 12px; margin: 30px 0 15px 0;">📈 Stock Market</h2>
-<div style="background: #eff6ff; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+<div style="padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid rgba(37, 99, 235, 0.2);">
   <p><strong>S&P 500:</strong> ${templateData.stocks.sp500}</p>
   <p><strong>DOW:</strong> ${templateData.stocks.dow}</p>
   <p><strong>NASDAQ:</strong> ${templateData.stocks.nasdaq}</p>
-  <p style="font-size: 12px; color: #64748b; font-style: italic;">${templateData.stocks.note}</p>
+  <p style="font-size: 12px; font-style: italic; opacity: 0.7;">${templateData.stocks.note}</p>
   <div style="margin-top: 15px; line-height: 1.8;">
     ${formatAnalysisText(templateData.stocks.news)}
   </div>
 </div>
 
 <h2 style="color: #16a34a; border-left: 4px solid #16a34a; padding-left: 12px; margin: 30px 0 15px 0;">💰 Economy</h2>
-<div style="background: #f0fdf4; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+<div style="padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid rgba(22, 163, 74, 0.2);">
   <p><strong>US 10-Year:</strong> ${templateData.economy.us10year}</p>
   <p><strong>Gold:</strong> ${templateData.economy.gold}</p>
   <p><strong>Silver:</strong> ${templateData.economy.silver}</p>
-  <p style="font-size: 12px; color: #64748b; font-style: italic;">${templateData.economy.note}</p>
+  <p style="font-size: 12px; font-style: italic; opacity: 0.7;">${templateData.economy.note}</p>
   <div style="margin-top: 15px; line-height: 1.8;">
     ${formatAnalysisText(templateData.economy.commentary)}
   </div>
@@ -265,19 +265,19 @@ async function step4_createAgentHubPost(imageUrls, dateInfo, sessionToken) {
 
 ${templateData.crypto ? `
 <h2 style="color: #f59e0b; border-left: 4px solid #f59e0b; padding-left: 12px; margin: 30px 0 15px 0;">₿ Cryptocurrency</h2>
-<div style="background: #fffbeb; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+<div style="padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid rgba(245, 158, 11, 0.2);">
   <p><strong>BTC:</strong> ${templateData.crypto.btc}</p>
   <p><strong>ETH:</strong> ${templateData.crypto.eth}</p>
   <p><strong>XRP:</strong> ${templateData.crypto.xrp}</p>
-  <p style="font-size: 12px; color: #64748b; font-style: italic;">${templateData.crypto.note}</p>
+  <p style="font-size: 12px; font-style: italic; opacity: 0.7;">${templateData.crypto.note}</p>
   <div style="margin-top: 15px; line-height: 1.8;">
     ${formatAnalysisText(templateData.crypto.commentary)}
   </div>
 </div>
 ` : ''}
 
-<div style="margin-top: 30px; padding: 20px; background: #f8fafc; border-radius: 8px; border-left: 4px solid #2563eb;">
-  <p style="margin: 0; font-size: 13px; color: #64748b;">
+<div style="margin-top: 30px; padding: 20px; border-radius: 8px; border-left: 4px solid #2563eb; opacity: 0.8;">
+  <p style="margin: 0; font-size: 13px;">
     <strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.
   </p>
 </div>
