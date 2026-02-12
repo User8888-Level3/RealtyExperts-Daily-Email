@@ -3,3 +3,15 @@ node_modules/
 *.log
 CLAUDE.md
 README.md
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*session-token*
+*.token
+
+# NPM cache
+.npm/
+npm-debug.log*
+package-lock.json

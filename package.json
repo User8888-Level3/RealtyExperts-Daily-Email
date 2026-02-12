@@ -1,0 +1,25 @@
+{
+  "name": "realtyexperts-daily-email",
+  "version": "1.0.0",
+  "description": "Automated Daily Market Email System for REALTY EXPERTS",
+  "main": "automate-daily-market.js",
+  "scripts": {
+    "automate": "node automate-daily-market.js",
+    "generate": "node generate-daily-email.js",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "keywords": [
+    "real-estate",
+    "market",
+    "automation",
+    "email"
+  ],
+  "author": "REALTY EXPERTS",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
