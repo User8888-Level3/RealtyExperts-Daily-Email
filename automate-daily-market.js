@@ -105,17 +105,17 @@ async function loginAndGetToken(password) {
 
   try {
     const response = await makeApiRequest(
-      `${CONFIG.agentHubApiBase}/validate-session`,
+      `${CONFIG.agentHubApiBase}/validate-access-code`,
       'POST',
-      { password: password },
+      { code: password, loginType: 'admin' },
       {}
     );
 
-    if (response.token) {
+    if (response.valid && response.token) {
       log('Successfully logged in and obtained fresh token', 'success');
       return response.token;
     } else {
-      throw new Error('Login successful but no token received');
+      throw new Error('Invalid admin password');
     }
   } catch (error) {
     throw new Error(`Login failed: ${error.message}`);
