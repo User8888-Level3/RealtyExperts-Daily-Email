@@ -1,36 +1,31 @@
 {
-  "date": "02/12/26",
+  "date": "02/13/26",
   "time": "08:00",
   "stocks": {
-    "sp500": "6,941 (-0.00%)",
-    "dow": "50,121 (-0.13%)",
-    "nasdaq": "23,066 (-0.16%)",
-    "note": "*Numbers as of market close on Feb 11th",
-    "news": "Lyft's Rough Ride:\n\nLyft's (LYFT -16.97%) shares hit a pothole after its revenue miss.\n\nWhat happened? Competition from companies like Uber (UBER -3.39%), promotional costs, and even weather-related rides.\n\nBut between a $1B buyback and new laws making insurance cheaper in California, Lyft hopes to drop costs and lift earnings and revenue by year-end.\n\nKing Of The Hill:\n\nWhen Nike (NKE -1.09%) appointed Eliot Hill as its CEO, the brand was losing ground to competitors like Adidas and Hoka.\n\n• But Hill is showing that the world runs on Nike, as the brand races towards Europe and Asia after boosting sales in the U.S."
+    "sp500": "6,833 (-1.57%)",
+    "dow": "49,452 (-1.34%)",
+    "nasdaq": "22,597 (-2.03%)",
+    "note": "*Numbers as of market close on Feb 12th",
+    "news": "Golden Quarter:\n\nMcDonald's (MCD +2.74%) investors are McLovin' their idecisions with the fast food chain seeing sales jump nearly 7% year-over-year.\n\n• This is one year after an E. coli outbreak quarter-pounded sales into a low.\n\nWhy the jump? Some analysts are saying it's due to the company's $5 Meal Deal strategy…our analysts are saying it's the new McGLP-1 strategy (more below).\n\nCisco (CSCO -12.32%) plummeted more than 12% despite beating revenue and earnings projections.\n\nWhat happened? Rising memory costs.\n\nHigh demand for computer memory caused the price to skyrocket, cutting into profits.\n\nBriefs Finance analysts believe this may create a rare entry point for Cisco, whose AI assets may be undervalued - they'll be diving deeper in Saturday's report."
   },
   "economy": {
-    "us10year": "4.17% (+0.02%)",
-    "gold": "$5,092 (+1.67%)",
-    "silver": "$84.58 (+4.79%)",
-    "note": "*Numbers as of 4:20pm ET Feb 11th",
-    "commentary": "Re-writing History:\n\nThe deets: The U.S. added 130,000 jobs and unemployment dipped to 4.3% in January.\n\n• 👍 Good news: That's double what economists expected.\n• 👎 Not-so-good news: 2025's revised data shows only 181K jobs added all year, down from 584K."
+    "us10year": "4.10% (-0.08%)",
+    "gold": "$4,923 (-3.00%)",
+    "silver": "$75.21 (-10.60%)",
+    "note": "*Numbers as of 4:40pm ET Feb 12th",
+    "commentary": "President Trump signed an Executive Order directing the Department of War to purchase reliable coal power for military installations to prevent blackouts and strengthen national security.\n\nwww.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-strengthens-united-states-national-defense-with-americas-beautiful-clean-coal-power-generation-fleet/\n\nMoscow has a message for Meta (META -2.82%) - and let's just say WhatsApp won't be delivering it.\n\nThe Kremlin says Russians need to log off WhatsApp completely, and is pushing its state-supported app, MAX.\n• Why? Russia says Meta would not release user data, and critics say Russia could use MAX to get it."
   },
   "crypto": {
-    "btc": "$67,643 (-1.66%)",
-    "eth": "$1,953 (-3.31%)",
-    "xrp": "$1.38 (-1.33%)",
-    "note": "*Numbers as of 4:25 pm ET on Feb 11th",
-    "commentary": "Bitcoin Busts a Move:\n\nThe Bitcoin slide continued yesterday. The world's most valuable crypto dipped to around $66,000 per coin, its lowest point since November 2024.\n\n• It did recover to around $70,000 per coin by the mid parts of the trading day.\n\nEthereum and Solana also took a hit, as tech investments in general have spooked some investors this year."
+    "btc": "$65,716 (-1.95%)",
+    "eth": "$1,921 (-1.04%)",
+    "xrp": "$1.35 (-1.25%)",
+    "note": "*Numbers as of 4:40 pm ET on Feb 12th",
+    "commentary": "Bank BTC Target Lower:\n\nBritish bank Standard Chartered has cut its Bitcoin price target, again.\n\nIn December, the bank cut its target to $100K by the end of 2025.\n\nNow, the same analyst says BTC could hit $50K."
   },
   "real_estate": {
     "rate_30year": "6.14%",
     "rate_15year": "5.71%",
-    "homebuilder": "Zillow Finally Turns A Profit:\n\nZillow's (Z -16.54%) Q4 2025 results were mixed:\n\n• Revenue was up 18% year-over-year, beating expectations.\n• Earnings per share (EPS) was a miss.\n\nStill, the company reported its first profitable year since 2012, but it wasn't enough to stop the drop yesterday.\n\nEvery Basis Point Counts:\n\nMortgage rates staying steady, so borrowers are taking advantage of any way to lower costs.\n\nAs a result, both FHA loans and refinance applications increased.\n\n• Refi applications are 101% higher than they were during the same week one year ago.\n\nWhy FHA loans? They are about 0.2% lower than conventional loans.",
-    "commentary": "As of Thursday, February 12, 2026, the real estate market in the Bay Area—specifically Fremont, Alameda County, and Santa Clara County—is showing distinct signs of softening prices coupled with a rise in inventory, offering a rare window of opportunity for buyers before the spring rush.\n\nHere is the latest news and market data from today and the past weekend.\n\n📍 Fremont Market Update (Focus Area):\n\n• Latest Trend (Feb 10–12): The market remains a \"Seller's Zone\" but is cooling. While still competitive, the frenzy has calmed significantly compared to last year.\n• Prices & Sales:\n• Median Sale Price: $1.17M (Down 2.6% year-over-year).\n• List Price Trends: The median list price this week is hovering around $1.7M.\n• Competition: Homes are selling in approximately 21–26 days. While \"hot\" homes still sell in ~9 days, the average time on market has increased by 9 days compared to last year.\n• Recent Sales (This Week & Weekend):\n• Sold Feb 11: 4-bed on Wisteria Dr sold for $2.85M (6% over list).\n• Sold Feb 11: 3-bed on Eggers Cmn sold for $1.13M (8% over list).\n• Sold Feb 9: 2-bed condo on Rothbury Cmn sold for $639k (at list price).\n• New Opportunity: The City of Fremont has a deadline approaching on Friday, Feb 20, 2026, for its \"Below Market Price\" (BMP) home (a brand-new townhome on Fremont Blvd).\n\nDeveloping Story - Musician Killed by Deputies (San Leandro/Alameda County):\n\nThe biggest story in the East Bay today involves the identification of the man shot and killed by Alameda County Sheriff's deputies earlier this week.\n\n• Update Today: The victim has been identified as Anthony Anderson, a 40-year-old local Bay Area trumpeter.\n\nCorruption Plea (San Leandro):\n\nFormer San Leandro City Councilmember Bryan Azevedo pleaded guilty today/late yesterday to federal corruption charges. This is sending shockwaves through local East Bay politics, as he has agreed to cooperate with federal prosecutors, which could lead to further investigations in the county."
+    "homebuilder": "Another Housing Coldfront:\n\nSales of already owned homes fell 8% in January - the biggest single-month drop since February 2022.\n\nWhy the drop? Buyers are bailing. Mixed confidence about the economy, fewer homes on the market, means some Americans put their home dreams on hold.\n• Homes are sitting on the market for longer - 46 days, up from 41 in Jan 2025.\n\nUnless you're buying a $1 million+ home, as that was the only segment that saw a rise in prices last month.\n\nThe Commercial Crater:\n\nThe Super Bowl is all about commercials - but in real estate, not so much…\n\nSource: https://click.market.briefs.co/t/c/b44be4b08bab423ebb27952a7a810fbb-3b08b0d59f15450f8099440f0c0cad44/77\n\nCommercial real estate stocks fell yesterday as the AI market selloff grew larger.\n\nWhy the scare? Hyperscalers are spending billions on data centers for AI - some investors are worried that the investment might not pay off.\n\nHere's a recap:\n• CBRE (CBRE -8.84%)\n• Cushman &-11.52%)\n• Jones Lang LaSalle (JLL -7.57%)",
+    "commentary": "🏡 Alameda County vs. Santa Clara County:\n\nBoth counties are seeing a slow but steady seasonal increase in inventory, which is good news if you are spending your weekend going to open houses.\n\n• Alameda County: This is where buyers are currently finding slightly more breathing room. The median sale price is sitting around $950,000, which is actually down a bit (about 7%) year-over-year. Homes are spending an average of 28 to 32 days on the market. Buyers who are willing to commute a little further are finding better value here.\n\n• Santa Clara County: The South Bay remains a premium market. The median sale price is holding steady at $1.5M, experiencing a very minor 1% dip compared to last year. Homes here sell faster than in Alameda County, averaging just 24 days on the market. The high-end luxury market and single-family homes in prime school districts remain intensely competitive.\n\n• Inventory is Waking Up: If you are heading out this weekend, you should notht uptick in \"For Sale\" signs. Sellers who held off during the winter holidays are starting to list, meaning buyers finally have a few more choices, easing the bidding war pressure just a fraction.\n\nBay Area real estate can be an emotional rollercoaster, so having a firm grasp on the data is your best defense.\n\nNo-Fee ADU Permits in Milpitas: For Milpitas homeowners, the city just announced that it is currently waiving permit fees for building or legalizing Accessory Dwelling Units (ADUs). The Office of Building Safety will cover these fees via the Community Investment Fund, which could save eligible homeowners an average of $5,000.\n\nMajor Drug Bust: Authorities announced the discovery of 300 pounds of processed marijuana in an illegal cultivation investigation in San Leandro, which resulted in a Wednesday arrest."
   }
 }
- 
- 
- 
- 
- 
