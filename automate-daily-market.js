@@ -337,7 +337,7 @@ ${templateData.crypto ? `
     {
       title: title,
       body: htmlContent,
-      category: 'general',
+      category: 'At a Glance',
       visibility: 'public',
       body_format: 'html'
     },

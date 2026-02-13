@@ -39,12 +39,19 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
 
-      - name: Detect date from latest images
+      - name: Detect date from JSON template
         id: detect_date
         run: |
-          # Check if generic files exist (user's preferred workflow)
-          if [ -f "RE-Daily-1.png" ] || [ -f "RE-Daily-2.png" ]; then
-            # Use today's date
+          # Read date from daily-market-template.json (format: "02/13/26")
+          if [ -f "daily-market-template.json" ]; then
+            JSON_DATE=$(cat daily-market-template.json | grep -oP '"date":\s*"\K[^"]+')
+            echo "Found date in JSON: $JSON_DATE"
+
+            # Convert from MM/DD/YY to MMDDYY
+            DATE_STR=$(echo "$JSON_DATE" | tr -d '/')
+            echo "Converted to: $DATE_STR"
+          elif [ -f "RE-Daily-1.png" ] || [ -f "RE-Daily-2.png" ]; then
+            # Fallback: Use today's date
             DATE_STR=$(date +%m%d%y)
             echo "Found generic image files, using today's date: $DATE_STR"
           else
