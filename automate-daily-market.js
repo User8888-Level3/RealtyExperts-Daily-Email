@@ -162,18 +162,33 @@ async function generateQRCode(noteId) {
 async function step1_verifyImages(dateStr) {
   log('STEP 1: Verifying image files exist', 'step');
 
+  const genericImage1 = 'RE-Daily-1.png';
+  const genericImage2 = 'RE-Daily-2.png';
   const image1 = `RE-Daily-1-${dateStr}.png`;
   const image2 = `RE-Daily-2-${dateStr}.png`;
 
-  if (!fs.existsSync(image1)) {
-    throw new Error(`Image not found: ${image1}`);
+  // Check if generic files exist and rename them
+  if (fs.existsSync(genericImage1)) {
+    log(`Found generic file: ${genericImage1}`, 'info');
+    fs.renameSync(genericImage1, image1);
+    log(`Renamed to: ${image1}`, 'success');
   }
-  if (!fs.existsSync(image2)) {
-    throw new Error(`Image not found: ${image2}`);
+  if (fs.existsSync(genericImage2)) {
+    log(`Found generic file: ${genericImage2}`, 'info');
+    fs.renameSync(genericImage2, image2);
+    log(`Renamed to: ${image2}`, 'success');
   }
 
-  log(`Found: ${image1}`, 'success');
-  log(`Found: ${image2}`, 'success');
+  // Verify dated files now exist
+  if (!fs.existsSync(image1)) {
+    throw new Error(`Image not found: ${image1}. Please provide either ${genericImage1} or ${image1}`);
+  }
+  if (!fs.existsSync(image2)) {
+    throw new Error(`Image not found: ${image2}. Please provide either ${genericImage2} or ${image2}`);
+  }
+
+  log(`✓ ${image1}`, 'success');
+  log(`✓ ${image2}`, 'success');
 
   return { image1, image2 };
 }

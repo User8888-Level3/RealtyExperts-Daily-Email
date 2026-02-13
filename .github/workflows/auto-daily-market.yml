@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'RE-Daily-*.png'
+      - 'RE-Daily-1.png'
+      - 'RE-Daily-2.png'
       - 'daily-market-template.json'
     branches:
       - main
@@ -40,19 +42,27 @@ jobs:
       - name: Detect date from latest images
         id: detect_date
         run: |
-          # Find the most recently modified RE-Daily-1-*.png file
-          LATEST_IMAGE=$(ls -t RE-Daily-1-*.png 2>/dev/null | head -n 1)
+          # Check if generic files exist (user's preferred workflow)
+          if [ -f "RE-Daily-1.png" ] || [ -f "RE-Daily-2.png" ]; then
+            # Use today's date
+            DATE_STR=$(date +%m%d%y)
+            echo "Found generic image files, using today's date: $DATE_STR"
+          else
+            # Find the most recently modified RE-Daily-1-*.png file
+            LATEST_IMAGE=$(ls -t RE-Daily-1-*.png 2>/dev/null | head -n 1)
 
-          if [ -z "$LATEST_IMAGE" ]; then
-            echo "No daily images found!"
-            exit 1
+            if [ -z "$LATEST_IMAGE" ]; then
+              echo "No daily images found!"
+              exit 1
+            fi
+
+            # Extract date from filename (RE-Daily-1-MMDDYY.png)
+            DATE_STR=$(echo "$LATEST_IMAGE" | sed 's/RE-Daily-1-\(.*\)\.png/\1/')
+            echo "Detected date from filename: $DATE_STR"
           fi
 
-          # Extract date from filename (RE-Daily-1-MMDDYY.png)
-          DATE_STR=$(echo "$LATEST_IMAGE" | sed 's/RE-Daily-1-\(.*\)\.png/\1/')
-
           echo "date=$DATE_STR" >> $GITHUB_OUTPUT
-          echo "Detected date: $DATE_STR"
+          echo "Using date: $DATE_STR"
 
       - name: Run automation
         env:

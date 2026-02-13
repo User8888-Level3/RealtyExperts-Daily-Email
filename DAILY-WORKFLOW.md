@@ -11,14 +11,10 @@ Everything happens in this repository. You do NOT touch the REALTY-EXPERTS-Agent
 ### Step 1: Create Your Images (5-10 minutes)
 
 In your graphics tool (Canva, Photoshop, etc.), create:
-- `RE-Daily-1-MMDDYY.png` (housing statistics table)
-- `RE-Daily-2-MMDDYY.png` (market analysis chart)
+- `RE-Daily-1.png` (housing statistics table)
+- `RE-Daily-2.png` (market analysis chart)
 
-**File naming format:** `RE-Daily-1-MMDDYY.png` and `RE-Daily-2-MMDDYY.png`
-
-**Examples:**
-- Feb 13, 2026: `RE-Daily-1-021326.png` and `RE-Daily-2-021326.png`
-- Feb 14, 2026: `RE-Daily-1-021426.png` and `RE-Daily-2-021426.png`
+**Always use the same filenames!** The automation will automatically rename them with today's date.
 
 ### Step 2: Update Market Data (2-3 minutes)
 
@@ -61,12 +57,12 @@ Open `daily-market-template.json` and update:
 ### Step 3: Commit and Push (30 seconds)
 
 ```bash
-# Move images from Downloads to this folder
-mv ~/Downloads/RE-Daily-1-*.png .
-mv ~/Downloads/RE-Daily-2-*.png .
+# Move images from Downloads to this folder (use same names every day!)
+mv ~/Downloads/RE-Daily-1.png .
+mv ~/Downloads/RE-Daily-2.png .
 
 # Add everything
-git add RE-Daily-*.png daily-market-template.json
+git add RE-Daily-1.png RE-Daily-2.png daily-market-template.json
 
 # Commit
 git commit -m "Daily market update $(date +%m/%d/%y)
@@ -76,6 +72,8 @@ Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
 # Push - THIS TRIGGERS THE AUTOMATION!
 git push
 ```
+
+**The automation will automatically rename your files to include today's date!**
 
 ---
 
@@ -116,28 +114,29 @@ Example URLs:
 
 ---
 
-## 🎯 Quick Example (Feb 13, 2026)
+## 🎯 Quick Example (Any Day)
 
 ```bash
 cd RealtyExperts-Daily-Email
 
-# 1. Create these images in your graphics app:
-#    RE-Daily-1-021326.png
-#    RE-Daily-2-021326.png
+# 1. Create these images in your graphics app (same names every day!):
+#    RE-Daily-1.png
+#    RE-Daily-2.png
 
 # 2. Update market data
 nano daily-market-template.json
 # (edit with today's data, save, exit)
 
 # 3. Commit and push
-git add RE-Daily-1-021326.png RE-Daily-2-021326.png daily-market-template.json
-git commit -m "Daily market update 02/13/26
+git add RE-Daily-1.png RE-Daily-2.png daily-market-template.json
+git commit -m "Daily market update $(date +%m/%d/%y)
 
 Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
 git push
 
-# 4. Go watch it run!
-# Open: https://github.com/User8888-Level3/RealtyExperts-Daily-Email/actions
+# 4. Automation runs automatically!
+# Files get renamed to RE-Daily-1-MMDDYY.png automatically
+# Watch it run: https://github.com/User8888-Level3/RealtyExperts-Daily-Email/actions
 ```
 
 ---
