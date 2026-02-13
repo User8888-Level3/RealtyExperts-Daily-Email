@@ -100,6 +100,28 @@ async function waitForUrl(url, maxRetries = CONFIG.maxRetries) {
   });
 }
 
+async function loginAndGetToken(password) {
+  log('Logging in to get fresh session token...', 'info');
+
+  try {
+    const response = await makeApiRequest(
+      `${CONFIG.agentHubApiBase}/validate-session`,
+      'POST',
+      { password: password },
+      {}
+    );
+
+    if (response.token) {
+      log('Successfully logged in and obtained fresh token', 'success');
+      return response.token;
+    } else {
+      throw new Error('Login successful but no token received');
+    }
+  } catch (error) {
+    throw new Error(`Login failed: ${error.message}`);
+  }
+}
+
 async function makeApiRequest(endpoint, method, body, headers = {}) {
   return new Promise((resolve, reject) => {
     const url = new URL(endpoint);
@@ -518,10 +540,17 @@ async function main() {
     // Parse command line arguments
     const args = process.argv.slice(2);
     const customDate = args[0]; // Optional: MMDDYY format
-    const sessionToken = args[1] || process.env.ADMIN_SESSION_TOKEN;
+    let sessionToken = args[1] || process.env.ADMIN_SESSION_TOKEN;
+    const adminPassword = process.env.ADMIN_PASSWORD;
+
+    // If no session token but we have a password, log in to get a fresh token
+    if (!sessionToken && adminPassword) {
+      log('No session token provided, logging in with password...', 'info');
+      sessionToken = await loginAndGetToken(adminPassword);
+    }
 
     if (!sessionToken) {
-      throw new Error('Admin session token required. Pass as second argument or set ADMIN_SESSION_TOKEN env variable.');
+      throw new Error('Admin authentication required. Set either ADMIN_SESSION_TOKEN or ADMIN_PASSWORD env variable.');
     }
 
     // Get date info

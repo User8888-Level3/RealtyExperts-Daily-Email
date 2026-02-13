@@ -66,9 +66,10 @@ jobs:
 
       - name: Run automation
         env:
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
           ADMIN_SESSION_TOKEN: ${{ secrets.ADMIN_SESSION_TOKEN }}
         run: |
-          node automate-daily-market.js "${{ steps.detect_date.outputs.date }}" "$ADMIN_SESSION_TOKEN"
+          node automate-daily-market.js "${{ steps.detect_date.outputs.date }}"
 
       - name: Push generated files
         run: |
