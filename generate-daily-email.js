@@ -9,6 +9,53 @@ function loadData(jsonFile) {
   return data;
 }
 
+// Generate source links from JSON template sources array
+function generateSourceLinks(sources) {
+  if (!sources || sources.length === 0) return '';
+
+  // Extract a short label from a URL
+  function labelFromUrl(url) {
+    try {
+      const u = new URL(url);
+      const host = u.hostname.replace('www.', '');
+      // Get the publisher name
+      const publishers = {
+        'bloomberg.com': 'Bloomberg',
+        'cnbc.com': 'CNBC',
+        'reuters.com': 'Reuters',
+        'wsj.com': 'WSJ',
+        'whitehouse.gov': 'White House',
+        'coindesk.com': 'CoinDesk',
+        'tradingview.com': 'TradingView',
+        'nytimes.com': 'NYT',
+        'foxbusiness.com': 'Fox Business',
+        'yahoo.com': 'Yahoo Finance',
+      };
+      const publisher = publishers[host] || host.split('.')[0].charAt(0).toUpperCase() + host.split('.')[0].slice(1);
+
+      // Extract a topic from the URL path
+      const pathParts = u.pathname.split('/').filter(Boolean);
+      const slug = pathParts[pathParts.length - 1] || '';
+      // Clean up the slug: remove dates, file extensions, convert hyphens
+      const topic = slug
+        .replace(/\.html?$/, '')
+        .replace(/\d{4}-\d{2}-\d{2}/, '')
+        .replace(/-+/g, ' ')
+        .replace(/\b\w/g, c => c.toUpperCase())
+        .trim()
+        .slice(0, 30);
+
+      return topic ? `${publisher} - ${topic}` : publisher;
+    } catch {
+      return url.slice(0, 40);
+    }
+  }
+
+  return sources
+    .map(url => `<a href="${url}" style="color: #94a3b8; text-decoration: none;">${labelFromUrl(url)}</a>`)
+    .join(' · \n                      ');
+}
+
 // Format commentary text with proper paragraphs and bullets
 function formatCommentary(text) {
   // Split by double newlines for paragraphs
@@ -483,11 +530,7 @@ function generateHTML(data) {
                     <p style="margin: 0; color: #94a3b8; font-size: 11px; line-height: 1.6; border-top: 1px solid #e2e8f0; padding-top: 14px;">Disclaimer: The market data, rates, and information provided in this email are for informational purposes only and should not be considered financial advice. Figures are sourced from third-party providers and may be delayed or subject to change. Always verify rates and data with your lender or financial advisor before making any decisions.</p>
                     <p style="margin: 10px 0 0 0; color: #94a3b8; font-size: 10px; line-height: 1.5;">
                       <em>Sources:</em><br>
-                      <a href="https://www.cnbc.com/2026/02/10/lyft-lyft-q4-2025-earnings-.html" style="color: #94a3b8; text-decoration: none;">CNBC - Lyft Earnings</a> ·
-                      <a href="https://www.bloomberg.com/news/articles/2026-02-11/nike-ceo-hill-sees-turnaround-picking-up-from-europe-to-asia" style="color: #94a3b8; text-decoration: none;">Bloomberg - Nike</a> ·
-                      <a href="https://www.wsj.com/livecoverage/jobs-report-unemployment-stock-market-02-11-2026/card/jobs-revisions-today-what-to-know-EKW22wDUK0bfhB6gd7Em" style="color: #94a3b8; text-decoration: none;">WSJ - Jobs Report</a> ·
-                      <a href="https://www.cnbc.com/2026/02/11/bitcoin-price-today-crypto-volatility.html" style="color: #94a3b8; text-decoration: none;">CNBC - Bitcoin</a> ·
-                      <a href="https://www.tradingview.com/news/zacks:8b17d3c07094b:0-zillow-s-q4-earnings-miss-expectations-revenues-increase-y-y/" style="color: #94a3b8; text-decoration: none;">TradingView - Zillow</a>
+                      ${generateSourceLinks(data.sources || [])}
                     </p>
                     <p style="margin: 10px 0 0 0; color: #94a3b8; font-size: 11px; line-height: 1.6;">If you would like to stop receiving this email, simply reply with <strong style="color: #64748b;">UNSUBSCRIBE</strong>.</p>
                   </td>
