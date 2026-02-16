@@ -1,6 +1,6 @@
 {
   "date": "02/16/26",
-  "time": "08:00",
+  "time": "14:00",
   "stocks": {
     "sp500": "6,836 (+0.05%)",
     "dow": "49,501 (+0.10%)",
@@ -29,10 +29,12 @@
     "commentary": "🌉 The Broader Bay Area Picture:\n\nThe current vibe across the Bay Area real estate scene can be summed up as \"picky.\"\n• With mortgage rates still drifting around 6%, buyers are refusing to overpay for homes that aren't move-in ready.\n• We're seeing a shift where inventory is expanding slightly faster than sales are closing. It's still a seller's market by historical standards, but buyers currently have the most leverage they've had in a while to negotiate terms or ask for repairs."
   },
   "sources": [
-    "https://www.cnbc.com/markets/",
-    "https://www.reuters.com/business/",
-    "https://www.coindesk.com/",
-    "https://www.pewresearch.org/",
-    "https://finance.yahoo.com/"
+    "https://www.barrons.com/articles/moderna-earnings-stock-price-94d18501",
+    "https://www.barrons.com/articles/rivian-earnings-stock-price-432374c5",
+    "https://www.cnbc.com/2026/02/13/nvidias-stock-is-down-and-amd-is-up-the-culprit-may-be-arista-.html",
+    "https://www.pewresearch.org/politics/2026/02/04/a-year-into-trumps-second-term-americans-views-of-the-economy-remain-negative/",
+    "https://www.cnbc.com/2026/02/13/heres-the-inflation-breakdown-for-january-2026-in-one-chart.html",
+    "https://www.congress.gov/bill/119th-congress/house-bill/3633/text",
+    "https://www.coindesk.com/policy/2026/02/13/crypto-group-counters-wall-street-bankers-with-its-own-stablecoin-principles-for-bill"
   ]
 }
