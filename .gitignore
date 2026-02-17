@@ -15,3 +15,6 @@ README.md
 .npm/
 npm-debug.log*
 package-lock.json
+
+# Editor backup files
+*.save
