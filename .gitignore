@@ -8,6 +8,7 @@ DAILY-INTAKE.md
 # Environment variables and secrets
 .env
 *-google-drive.json
+.credentials.enc
 .env.local
 .env.*.local
 *session-token*
