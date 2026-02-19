@@ -1,42 +1,44 @@
 {
-  "date": "02/18/26",
+  "date": "02/19/26",
   "time": "08:00",
   "stocks": {
-    "sp500": "6,843 (+0.10%)",
-    "dow": "49,533 (+0.07%)",
-    "nasdaq": "22,578 (+0.14%)",
-    "note": "*Numbers as of market close on Feb 17th",
-    "news": "By Sea Or By Land\n\nA couple of big travel names flew (or sailed) higher yesterday.\n\nNorwegian Cruise Lines (NCLH +12.15%) shares swelled on news that activist investor Elliott is taking a 10% stake in the company.\n\nSouthwest Airlines (LUV +6.16%) climbed to new 52-week highs on an upgrade from UBS (UBS +0.79%).\n\nBig Swings In Big Tech:\n\nThe Mag 7 hasn't looked too magnificent in the past week, with the QQQs down nearly 2%.\n\nBut yesterday, Apple (AAPL +3.17%) traded higher as investors get more bullish on some of its AI products.\n\nAmazon (AMZN +1.19%) also edged higher as traders bought the dip on the tech giant."
+    "sp500": "6,881 (+0.56%)",
+    "dow": "49,663 (+0.26%)",
+    "nasdaq": "22,754 (+0.78%)",
+    "note": "*Numbers as of market close on Feb 18th",
+    "news": "Moderna Gets A Booster\n\nModerna shares traded higher yesterday after the FDA said it would review the company's flu shot.\n\n• The decision is a reversal after it originally said it wouldn't accept an application from the biotech company.\n\nModerna shares are up more than 50% YTD, making it one of the S&P 500's top-performing stocks in 2026.\n\nCybersecurity Takes A Hit:\n\nPalo Alto Networks (PANW -6.82%) is one of the leading cybersecurity companies in the country.\n\nBut the company reported disappointing earnings, sending the stock lower.\n\nOther names, like Fortinet (FTNT -1.22%) also fell on the report."
   },
   "economy": {
-    "us10year": "4.06% (+0.01%)",
-    "gold": "$4,881 (-2.88%)",
-    "silver": "$73.55 (-4.20%)",
-    "note": "*Numbers as of 4:30pm ET Feb 17th",
-    "commentary": "Goolsbee's Best Guess:\n\nChicago Fed President Goolsbee says 2026 could see \"several\" more rate cuts.\n\nThere's a catch: Only if inflation keeps cooling off, getting closer to the Fed's 2% target.\n\nGoolsbee says services inflation (things like healthcare, housing, education) is rising, and the ongoing effects of tariffs are unknown.\n\nA Tale Of Three Economies:\n\nA new report from Bank of America shows that the U.S. economy is divided in three:\n• Wealthy spending is healthy: Up 2.5%, the highest rates since 2022.\n• Middle-income is flat: Spending is not moving up or down, wages up 1.6%.\n• Lower-income barely moving: Up 0.3%, and no wage data was collected."
+    "us10year": "4.09% (+0.03%)",
+    "gold": "$4,980 (+1.89%)",
+    "silver": "$77.24 (+4.66%)",
+    "note": "*Numbers as of 4:30pm ET Feb 18th",
+    "commentary": "To The Sunshine State:\n\nPalantir (PLTR +1.77%) became the latest corporation to move its headquarters to Florida.\n\nWhy? Friendlier taxes for businesses and billionaires.\n\nCitadel, one of the largest hedge funds in the world, also moved its HQ to Miami in recent years.\n\nBack To Basics:\n\nJPMorgan (JPM +0.54%) announced it's going back to basics: more in-person banks.\n\nThe company said it plans to open more than 160 new branches in 30 U.S. states by the end of this year.\n\nWhy? In a world of growing AI adoption, people still want real people handling their finances.\n\nStablecoins Spreading:\n\nNigeria and South Africa are leading the world in stablecoin demand according to a new survey.\n\n• 80% of respondents in those countries hold stablecoins, and 75% plan to buy more.\n\nStablecoins like USDC offer faster, more reliable payments, as well as lower fees.\n\nWhile citizens like the option, central banks worry this trend gives them less control over the economy."
   },
   "crypto": {
-    "btc": "$67,654 (-1.74%)",
-    "eth": "$1,992 (-0.24%)",
-    "xrp": "$1.49 (+0.01%)",
-    "note": "*Numbers as of 4:30pm ET on Feb 17th",
+    "btc": "$66,467 (-1.49%)",
+    "eth": "$1,945 (-2.36%)",
+    "xrp": "$1.43 (-3.33%)",
+    "note": "*Numbers as of 4:30pm ET on Feb 18th",
     "commentary": ""
   },
   "real_estate": {
-    "rate_30year": "6.04%",
-    "rate_15year": "5.61%",
-    "homebuilder": "Construction Confidence:\n\nHome builders are not feeling great these days.\n\nThat's because an index tracking their confidence has dropped again, to 36, the lowest since September 2025.\n• Anything under 50 is considered \"poor conditions\" for home builders.\n\nWhat's weighing it down? Tariffs increasing material costs, loss of labor pool due to immigration policy, and buyers just can't afford homes.\n\nBanks Want Back In The Game:\n\nBanks have been getting out of mortgage lending, down from 60% in 2008 to 35% today.\n• Why? Rules changed after the 2008 housing crisis, making it harder for banks to loan money.\n\nSo the Fed wants to change the rules again, to make it easier for banks to get back in the home loan game.",
-    "commentary": "📍 Alameda County (Fremont Focus)\n\nFremont is currently outperforming its neighbors with stronger momentum than parts of Santa Clara County. While Silicon Valley (Santa Clara) is seeing a surprisingly slow start to the spring season with softening prices, Fremont (Alameda County) remains a competitive seller's market with rising demand and tight inventory.\n\nMarket Status - \"Strong Seller's Market\":\n\nAs of mid-February data, Fremont has an incredibly low 0.7 months of supply.\n• Competition: Homes are selling for roughly 101.7% of the asking price.\n• Speed: Average days on market is hovering around 45 days, but desirable single-family homes are moving much faster (often under 14 days).\n• Median Price: Trending between $1.38M and $1.69M, depending on the neighborhood.\n• Prices are Rising: Unlike its southern neighbor, Alameda County is seeing price growth. The median sale price is roughly $925,000, up 2.6% year-over-year.\n• Sales Volume is Down: Total sales have dropped about 8% compared to last year. This indicates a \"gridlock\" where buyers want to buy, but there simply aren't enough sellers listing their homes.\n• Buyer Behavior: Buyers are re-entering the market now (in February) rather than waiting for April/May, trying to beat the competition before interest rates potentially fluctuate again."
+    "rate_30year": "6.05%",
+    "rate_15year": "5.62%",
+    "homebuilder": "🗞️ Breaking Today: NAR Pending Home Sales:\n\nThe National Association of Realtors (NAR) released their Pending Home Sales Report this morning, showing a 0.8% month-over-month dip.\n\nDespite mortgage rates stabilizing near 6%—which theoretically qualifies millions more buyers than last year—many buyers are still holding off because of painfully low housing supply, a dynamic heavily impacting the Bay Area.\n\nLowest Rates In Years:\n\nMortgage rates are close to their lowest point in years, leading to a jump in refinance applications.\n\nBorrowers are reworking their loans to take advantage of the lower rates.\n\nBut, the drop in rates hasn't led to a surge in buying activity, at least not yet.",
+    "commentary": "📍 Alameda County (Stabilized but Seller-Leaning)\n\nThe market is a bit more balanced compared to Santa Clara, though still favoring sellers. The county-wide median sale price is currently around $925,000 to $1.04M.\n\nHomes are taking a little longer to sell here (around 28 to 43 days on average), giving buyers slightly more breathing room to negotiate, especially on higher-end luxury inventory or properties that need work.\n\nHowever, move-in ready homes in key commuter locations are still fetching top dollar and moving quickly.\n\n• New Housing Legislation: Assemblymember Alex Lee (D-Milpitas) just introduced AB 1997. This bill aims to speed up the permitting process for housing developments at the local level by requiring cities to appoint project development managers to fast-track approvals.\n\n• City Leadership & Budget: The Fremont City Council recently approved a budget rebalancing measure to keep local services running smoothly. Meanwhile, the Fremont Police Department announced that Chief Sean Washington will be retiring after 28 years of distinguished service.\n\n• Tahoe Avalanche: The Bay Area is mourning alongside the rest of Northern California after a devastating avalanche near Lake Tahoe's Castle Peak area left 8 backcountry skiers dead, with one still missing.\n\n• Super Bowl Boost: Recent reports indicate that the Super Bowl brought a significant economic boost to both Santa Clara and San Jose, driving record ridership on South Bay public transit.\n\nEverything's Bigger In Texas:\n\nA San Antonio investor pleaded guilty to a charge related to a real estate Ponzi scheme.\n\nHe raised more than $60M and paid some investors what he said was interest payments on the properties, but was really just money from other investors."
   },
   "sources": [
-    "https://www.wsj.com/business/deals/activist-elliott-builds-big-stake-in-norwegian-cruise-line-3c2e669d",
-    "https://www.investing.com/news/stock-market-news/apple-accelerates-development-of-aipowered-wearable-devices-93CH-4509526",
-    "https://www.cnbc.com/2026/02/17/amazon-stock-losing-streak.html",
-    "https://www.bloomberg.com/news/articles/2026-02-17/fed-s-goolsbee-sees-several-rate-cuts-if-inflation-heads-lower",
-    "https://www.globest.com/2026/02/17/americas-economy-splinters-further-as-the-middle-falters/",
-    "https://www.bloomberg.com/news/articles/2026-02-17/us-homebuilder-sentiment-dips-to-five-month-low-on-affordability",
-    "https://www.congress.gov/crs-product/R47855",
+    "https://www.globenewswire.com/news-release/2026/02/19/3241272/0/en/NAR-Pending-Home-Sales-Report-Shows-0-8-Decrease-in-January.html",
     "https://www.mortgagedaily.com/rates/",
+    "https://news4sanantonio.com/news/local/san-antonio-man-pleads-guilty-to-695-million-real-estate-fraud-scheme-texas-bexar-county-investors-money-payments-funds",
+    "https://www.cnbc.com/markets/",
+    "https://www.cnbc.com/2026/02/18/fda-agrees-to-review-modernas-flu-shot-application-after-refusal.html",
+    "https://blockonomi.com/fortinet-ftnt-stock-slides-as-analyst-downgrades-on-valuation-concerns/",
+    "https://fortune.com/personal-finance/",
+    "https://www.bloomberg.com/news/articles/2026-02-18/palantir-decamps-to-miami-co-working-space-in-surprise-move",
+    "https://www.reuters.com/business/finance/jpmorgan-aims-open-over-160-branches-2026-ft-reports-2026-02-18/",
+    "https://www.reuters.com/world/africa/biggest-african-economies-lead-stablecoin-demand-growth-study-shows-2026-02-18/",
     "https://www.coindesk.com/"
   ]
 }
