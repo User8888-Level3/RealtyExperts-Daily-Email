@@ -3,9 +3,11 @@ node_modules/
 *.log
 CLAUDE.md
 README.md
+DAILY-INTAKE.md
 
 # Environment variables and secrets
 .env
+*-google-drive.json
 .env.local
 .env.*.local
 *session-token*
