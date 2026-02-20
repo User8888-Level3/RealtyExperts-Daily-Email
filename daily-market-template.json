@@ -1,44 +1,42 @@
 {
-  "date": "02/19/26",
-  "time": "08:00",
+  "date": "02/20/26",
+  "time": "09:00",
   "stocks": {
-    "sp500": "6,881 (+0.56%)",
-    "dow": "49,663 (+0.26%)",
-    "nasdaq": "22,754 (+0.78%)",
-    "note": "*Numbers as of market close on Feb 18th",
-    "news": "Moderna Gets A Booster\n\nModerna shares traded higher yesterday after the FDA said it would review the company's flu shot.\n\n• The decision is a reversal after it originally said it wouldn't accept an application from the biotech company.\n\nModerna shares are up more than 50% YTD, making it one of the S&P 500's top-performing stocks in 2026.\n\nCybersecurity Takes A Hit:\n\nPalo Alto Networks (PANW -6.82%) is one of the leading cybersecurity companies in the country.\n\nBut the company reported disappointing earnings, sending the stock lower.\n\nOther names, like Fortinet (FTNT -1.22%) also fell on the report."
+    "sp500": "6,862 (-0.28%)",
+    "dow": "49,395 (-0.54%)",
+    "nasdaq": "22,683 (-0.31%)",
+    "note": "*Numbers as of market close on Feb 19th",
+    "news": "Wayfair Gets A Reality Check:\n\nHome decor company Wayfair (W -13.02%) announced its first sales gain, up 5.1%, since 2020.\n\nBut its shares dropped over 15% on the news. Why? Investors are worried the company's expansion plans are risky. With home sales low and tariffs high, consumers are buying less furniture at cheaper prices.\n\nThe New Sales King:\n\nAmazon just took the #1 spot for world's biggest company by sales, beating out Walmart.\n\nAmazon Web Services (AWS), the cloud-computing arm of the company, had its fastest growth in years thanks to AI.\n\nWhy it matters? Both companies sell low-cost items to consumers, and Walmart has attracted high-income shoppers in recent years."
   },
   "economy": {
-    "us10year": "4.09% (+0.03%)",
-    "gold": "$4,980 (+1.89%)",
-    "silver": "$77.24 (+4.66%)",
-    "note": "*Numbers as of 4:30pm ET Feb 18th",
-    "commentary": "To The Sunshine State:\n\nPalantir (PLTR +1.77%) became the latest corporation to move its headquarters to Florida.\n\nWhy? Friendlier taxes for businesses and billionaires.\n\nCitadel, one of the largest hedge funds in the world, also moved its HQ to Miami in recent years.\n\nBack To Basics:\n\nJPMorgan (JPM +0.54%) announced it's going back to basics: more in-person banks.\n\nThe company said it plans to open more than 160 new branches in 30 U.S. states by the end of this year.\n\nWhy? In a world of growing AI adoption, people still want real people handling their finances.\n\nStablecoins Spreading:\n\nNigeria and South Africa are leading the world in stablecoin demand according to a new survey.\n\n• 80% of respondents in those countries hold stablecoins, and 75% plan to buy more.\n\nStablecoins like USDC offer faster, more reliable payments, as well as lower fees.\n\nWhile citizens like the option, central banks worry this trend gives them less control over the economy."
+    "us10year": "4.07% (-0.02%)",
+    "gold": "$5,018 (+0.77%)",
+    "silver": "$80.30 (+3.96%)",
+    "note": "*Numbers as of market close on Feb 19th",
+    "commentary": "Labor Market Holds Steady:\n\nJobless claims came in lower than expected — a sign that the labor market is holding up.\n\nWell, kind of — there haven't been a lot of layoffs but there also isn't a lot of hiring.\n\nEconomists say the current labor market is unusual, because GDP is growing, but lots of jobs aren't being created."
   },
   "crypto": {
-    "btc": "$66,467 (-1.49%)",
-    "eth": "$1,945 (-2.36%)",
-    "xrp": "$1.43 (-3.33%)",
-    "note": "*Numbers as of 4:30pm ET on Feb 18th",
-    "commentary": ""
+    "btc": "$67,784 (+1.98%)",
+    "eth": "$1,900 (-2.31%)",
+    "xrp": "$1.42 (-0.70%)",
+    "note": "*Numbers as of market close on Feb 19th",
+    "commentary": "White House Works On Deal:\n\nThe White House is working with banks to agree on a deal regarding stablecoins.\n\nWhat's going on? Banks don't want stablecoins to be able to offer yields — or interest.\n\nBank executives say that if users are able to get interest for holding stablecoins, it could disrupt the entire banking system.\n\nThe White House says it has made progress, but a deal hasn't been made yet."
   },
   "real_estate": {
     "rate_30year": "6.05%",
     "rate_15year": "5.62%",
-    "homebuilder": "🗞️ Breaking Today: NAR Pending Home Sales:\n\nThe National Association of Realtors (NAR) released their Pending Home Sales Report this morning, showing a 0.8% month-over-month dip.\n\nDespite mortgage rates stabilizing near 6%—which theoretically qualifies millions more buyers than last year—many buyers are still holding off because of painfully low housing supply, a dynamic heavily impacting the Bay Area.\n\nLowest Rates In Years:\n\nMortgage rates are close to their lowest point in years, leading to a jump in refinance applications.\n\nBorrowers are reworking their loans to take advantage of the lower rates.\n\nBut, the drop in rates hasn't led to a surge in buying activity, at least not yet.",
-    "commentary": "📍 Alameda County (Stabilized but Seller-Leaning)\n\nThe market is a bit more balanced compared to Santa Clara, though still favoring sellers. The county-wide median sale price is currently around $925,000 to $1.04M.\n\nHomes are taking a little longer to sell here (around 28 to 43 days on average), giving buyers slightly more breathing room to negotiate, especially on higher-end luxury inventory or properties that need work.\n\nHowever, move-in ready homes in key commuter locations are still fetching top dollar and moving quickly.\n\n• New Housing Legislation: Assemblymember Alex Lee (D-Milpitas) just introduced AB 1997. This bill aims to speed up the permitting process for housing developments at the local level by requiring cities to appoint project development managers to fast-track approvals.\n\n• City Leadership & Budget: The Fremont City Council recently approved a budget rebalancing measure to keep local services running smoothly. Meanwhile, the Fremont Police Department announced that Chief Sean Washington will be retiring after 28 years of distinguished service.\n\n• Tahoe Avalanche: The Bay Area is mourning alongside the rest of Northern California after a devastating avalanche near Lake Tahoe's Castle Peak area left 8 backcountry skiers dead, with one still missing.\n\n• Super Bowl Boost: Recent reports indicate that the Super Bowl brought a significant economic boost to both Santa Clara and San Jose, driving record ridership on South Bay public transit.\n\nEverything's Bigger In Texas:\n\nA San Antonio investor pleaded guilty to a charge related to a real estate Ponzi scheme.\n\nHe raised more than $60M and paid some investors what he said was interest payments on the properties, but was really just money from other investors."
+    "homebuilder": "Commercial Deal in Santa Clara:\n\nFirst Washington Realty recently acquired Mission Park Marketplace in Santa Clara for $20.33MM — a sign that commercial real estate investment in the Bay Area continues to move despite broader market uncertainty.",
+    "commentary": "📍 Fremont (Strong Buyer Activity)\n\nFremont's housing market is seeing strong buyer activity early in the year, with homes selling in a median of 21 days as inventory remains tight.\n\nLatest Real Estate News in the Bay Area:\n\nFremont is kicking off the year with solid momentum as buyers return to the market due to stabilizing rates, and pending sales are showing significant activity. In the commercial sector, Bloom Energy is doubling down on its Fremont presence by consolidating operations in the East Bay and exiting a 104,000 sq. ft. space on the Peninsula. Over in Santa Clara County, the market remains firmly in \"seller's market\" territory despite earlier economic concerns.\n\nLatest General News in the Bay Area:\n\nIn Milpitas, the community is bidding a fond farewell to Koong's, a beloved Chinese restaurant that officially closed after operating for more than four decades. Regionally, BART is warning of a massive budget crisis that could lead to the closure of 15 stations and slashed services without the approval of a voter-backed sales tax."
   },
   "sources": [
-    "https://www.globenewswire.com/news-release/2026/02/19/3241272/0/en/NAR-Pending-Home-Sales-Report-Shows-0-8-Decrease-in-January.html",
-    "https://www.mortgagedaily.com/rates/",
-    "https://news4sanantonio.com/news/local/san-antonio-man-pleads-guilty-to-695-million-real-estate-fraud-scheme-texas-bexar-county-investors-money-payments-funds",
-    "https://www.cnbc.com/markets/",
-    "https://www.cnbc.com/2026/02/18/fda-agrees-to-review-modernas-flu-shot-application-after-refusal.html",
-    "https://blockonomi.com/fortinet-ftnt-stock-slides-as-analyst-downgrades-on-valuation-concerns/",
-    "https://fortune.com/personal-finance/",
-    "https://www.bloomberg.com/news/articles/2026-02-18/palantir-decamps-to-miami-co-working-space-in-surprise-move",
-    "https://www.reuters.com/business/finance/jpmorgan-aims-open-over-160-branches-2026-ft-reports-2026-02-18/",
-    "https://www.reuters.com/world/africa/biggest-african-economies-lead-stablecoin-demand-growth-study-shows-2026-02-18/",
-    "https://www.coindesk.com/"
+    "https://www.mortgagenewsdaily.com/",
+    "https://news.theregistrysf.com/",
+    "https://www.redfin.com/city/6671/CA/Fremont/housing-market",
+    "https://milpitasbeat.com/category/headlines-2/",
+    "https://www.cnbc.com/2026/02/19/wayfair-w-earnings-q4-2025.html",
+    "https://www.cnn.com/2026/02/19/business/walmart-amazon-sales-companies",
+    "https://tradingeconomics.com/",
+    "https://www.reuters.com/world/us/us-weekly-jobless-claims-fall-more-than-expected-amid-labor-market-stability-2026-02-19/",
+    "https://www.coindesk.com/policy/2026/02/19/latest-white-house-talks-on-stablecoin-yield-make-progress-with-banks-no-deal-yet"
   ]
 }
