@@ -1,42 +1,47 @@
 {
-  "date": "02/20/26",
-  "time": "09:00",
+  "date": "02/23/26",
+  "time": "08:00",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/25f57931-058b-4415-abf7-9f2f7035d9a3",
+  "qr_code_path": "note-qr-25f57931.png",
   "stocks": {
-    "sp500": "6,862 (-0.28%)",
-    "dow": "49,395 (-0.54%)",
-    "nasdaq": "22,683 (-0.31%)",
-    "note": "*Numbers as of market close on Feb 19th",
-    "news": "Wayfair Gets A Reality Check:\n\nHome decor company Wayfair (W -13.02%) announced its first sales gain, up 5.1%, since 2020.\n\nBut its shares dropped over 15% on the news. Why? Investors are worried the company's expansion plans are risky. With home sales low and tariffs high, consumers are buying less furniture at cheaper prices.\n\nThe New Sales King:\n\nAmazon just took the #1 spot for world's biggest company by sales, beating out Walmart.\n\nAmazon Web Services (AWS), the cloud-computing arm of the company, had its fastest growth in years thanks to AI.\n\nWhy it matters? Both companies sell low-cost items to consumers, and Walmart has attracted high-income shoppers in recent years."
+    "sp500": "6,891.46",
+    "dow": "49,339.00",
+    "nasdaq": "24,873.00",
+    "note": "*Numbers as of market close on Feb 22nd",
+    "news": "Tesla Cuts Prices:\n\nTesla (TSLA +0.03%) announced that it is dropping the price of its Cybertruck to try and spark more demand.\n\nThe EV company said that a new, cheaper version of the Cybertruck will start at around $60k.\n\nIt also will lower the price of its Cyberbeast, a higher-end model of the truck, to around $99k."
   },
   "economy": {
-    "us10year": "4.07% (-0.02%)",
-    "gold": "$5,018 (+0.77%)",
-    "silver": "$80.30 (+3.96%)",
-    "note": "*Numbers as of market close on Feb 19th",
-    "commentary": "Labor Market Holds Steady:\n\nJobless claims came in lower than expected — a sign that the labor market is holding up.\n\nWell, kind of — there haven't been a lot of layoffs but there also isn't a lot of hiring.\n\nEconomists say the current labor market is unusual, because GDP is growing, but lots of jobs aren't being created."
+    "us10year": "4.06%",
+    "gold": "$5,196.42",
+    "silver": "$87.41",
+    "note": "*Numbers as of market close on Feb 22nd",
+    "commentary": "Court Strikes The Tariff:\n\nThe U.S. Supreme Court struck down President Trump's 10% tariff, 6-3.\n\nThe ruling said the 1977 law Trump used to enact the tariffs didn't give him the \"power to unilaterally impose tariffs of unlimited amount, duration, and scope.\"\n\nThe catch? Trump called the ruling a \"disaster\" and signaled there are other paths to keeping tariffs in place."
   },
   "crypto": {
-    "btc": "$67,784 (+1.98%)",
-    "eth": "$1,900 (-2.31%)",
-    "xrp": "$1.42 (-0.70%)",
-    "note": "*Numbers as of market close on Feb 19th",
-    "commentary": "White House Works On Deal:\n\nThe White House is working with banks to agree on a deal regarding stablecoins.\n\nWhat's going on? Banks don't want stablecoins to be able to offer yields — or interest.\n\nBank executives say that if users are able to get interest for holding stablecoins, it could disrupt the entire banking system.\n\nThe White House says it has made progress, but a deal hasn't been made yet."
+    "btc": "$65,801.27",
+    "eth": "$1,858.00",
+    "xrp": "$1.42",
+    "note": "*Numbers as of market close on Feb 22nd",
+    "commentary": "Small investors are buying bitcoin. It now needs bigger players to show up to continue the momentum and drive prices higher in 2026."
   },
   "real_estate": {
-    "rate_30year": "6.05%",
-    "rate_15year": "5.62%",
-    "homebuilder": "Commercial Deal in Santa Clara:\n\nFirst Washington Realty recently acquired Mission Park Marketplace in Santa Clara for $20.33MM — a sign that commercial real estate investment in the Bay Area continues to move despite broader market uncertainty.",
-    "commentary": "📍 Fremont (Strong Buyer Activity)\n\nFremont's housing market is seeing strong buyer activity early in the year, with homes selling in a median of 21 days as inventory remains tight.\n\nLatest Real Estate News in the Bay Area:\n\nFremont is kicking off the year with solid momentum as buyers return to the market due to stabilizing rates, and pending sales are showing significant activity. In the commercial sector, Bloom Energy is doubling down on its Fremont presence by consolidating operations in the East Bay and exiting a 104,000 sq. ft. space on the Peninsula. Over in Santa Clara County, the market remains firmly in \"seller's market\" territory despite earlier economic concerns.\n\nLatest General News in the Bay Area:\n\nIn Milpitas, the community is bidding a fond farewell to Koong's, a beloved Chinese restaurant that officially closed after operating for more than four decades. Regionally, BART is warning of a massive budget crisis that could lead to the closure of 15 stations and slashed services without the approval of a voter-backed sales tax."
+    "rate_30year": "6.04%",
+    "rate_15year": "5.60%",
+    "homebuilder": "Vallejo-based modular homebuilder Harbinger Production (formerly Factory_OS) has warned employees of potential mass layoffs affecting nearly 290 workers due to a production gap and funding challenges.",
+    "commentary": "The Bay Area market enters the spring season as a strong seller's market with extremely tight supply. While single-family home prices in Alameda County are up nearly 3% year-over-year, the condominium market is softening with extended days on market and declining median prices.\n\nLatest Real Estate News in the Bay Area:\n\n• Fremont Market Momentum: The market in Fremont is starting 2026 with more activity than expected, recording 53 homes sold and 69 pending in the most recent monthly cycle. Showings have increased across the board, with well-located single-family homes drawing immediate interest and decisive action from buyers.\n\n• Divergent Trends in the East Bay: A clear split has emerged between property types; single-family homes in Alameda County sell in a median of 19 days, while condominiums now sit for a median of 51 days. This divergence offers greater negotiating leverage for buyers in the condo segment compared to the highly competitive single-family market.\n\n• Critical Inventory Shortages: Supply levels remain significantly lower than last year, with total inventory for single-family homes and condos down approximately 18% to 20% year-over-year. In Alameda County, inventory represents only 1.1 months of supply, signaling intense competition as the peak spring demand period approaches.\n\nLatest General News in the Bay Area:\n\n• BART Service Updates: BART has resumed normal train service through the Transbay Tube following earlier disruptions. However, riders on the Antioch Line should still expect roughly 20-minute delays between Antioch and Pittsburg/Bay Point due to ongoing track maintenance.\n\n• Fremont Public Safety: Local authorities continue to investigate a fatal shooting that occurred earlier this month near Central Avenue and Joseph Street. This incident, which marked the city's second homicide of 2026, remains an active investigation by the Crimes Against Persons Unit.\n\n• Milpitas Community Notice: Residents are reminded that community resources and transit updates remain steady, with local advisories focused on infrastructure improvements and ongoing BART escalator modernizations at nearby transit hubs."
   },
   "sources": [
+    "https://www.politico.com/news/2026/02/20/trump-tariffs-supreme-court-ruling-00790687",
     "https://www.mortgagenewsdaily.com/",
-    "https://news.theregistrysf.com/",
-    "https://www.redfin.com/city/6671/CA/Fremont/housing-market",
-    "https://milpitasbeat.com/category/headlines-2/",
-    "https://www.cnbc.com/2026/02/19/wayfair-w-earnings-q4-2025.html",
-    "https://www.cnn.com/2026/02/19/business/walmart-amazon-sales-companies",
-    "https://tradingeconomics.com/",
-    "https://www.reuters.com/world/us/us-weekly-jobless-claims-fall-more-than-expected-amid-labor-market-stability-2026-02-19/",
-    "https://www.coindesk.com/policy/2026/02/19/latest-white-house-talks-on-stablecoin-yield-make-progress-with-banks-no-deal-yet"
+    "https://www.coindesk.com/markets/2026/02/21/small-investors-are-buying-bitcoin-it-now-needs-bigger-players-to-show-up",
+    "https://www.bankrate.com/mortgages/30-year-mortgage-rates/",
+    "https://www.reuters.com/business/autos-transportation/tesla-cuts-price-cybertruck-cyberbeast-us-2026-02-20/",
+    "https://www.sfgate.com/tech/article/harbinger-homebuilder-layoff-gap-21368163.php",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://ascendre.com/blog/east-bay-housing-update-february-2026",
+    "https://eddieoberoi.com/blog/fremont-february-housing-market-update",
+    "https://pintu.co.id/en/news/258811-ethereum-price-update-23feb2026",
+    "https://www.bart.gov/schedules/advisories",
+    "https://www.fremontpolice.gov/Home/Components/News/News/1638/15"
   ]
 }
