@@ -1,47 +1,46 @@
 {
-  "date": "02/23/26",
+  "date": "02/24/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/5635cc95-ad4b-42c8-a97f-ad3c035d0982",
-  "qr_code_path": "note-qr-5635cc95.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/7a1d15eb-dc40-408d-9ffc-4461fe867922",
+  "qr_code_path": "note-qr-7a1d15eb.png",
   "stocks": {
-    "sp500": "6,891.46",
-    "dow": "49,339.00",
-    "nasdaq": "24,873.00",
-    "note": "*Numbers as of market close on Feb 22nd",
-    "news": "Tesla Cuts Prices:\n\nTesla (TSLA +0.03%) announced that it is dropping the price of its Cybertruck to try and spark more demand.\n\nThe EV company said that a new, cheaper version of the Cybertruck will start at around $60k.\n\nIt also will lower the price of its Cyberbeast, a higher-end model of the truck, to around $99k."
+    "sp500": "6,837.75",
+    "dow": "48,804.06",
+    "nasdaq": "22,627.27",
+    "note": "*Numbers as of market close on Feb 23rd",
+    "news": "The PayPal Pop:\n\nPayPal (PYPL +5.76%) shares popped on Monday on news that it could be a takeover target.\n\nShares are down more than 85% from their highs in 2021, and some companies are eyeing it as an acquisition target.\n\nPayPal operates Venmo, which is one of the largest peer-to-peer payment networks in the world."
   },
   "economy": {
-    "us10year": "4.06%",
+    "us10year": "4.04%",
     "gold": "$5,196.42",
     "silver": "$87.41",
-    "note": "*Numbers as of market close on Feb 22nd",
-    "commentary": "Court Strikes The Tariff:\n\nThe U.S. Supreme Court struck down President Trump's 10% tariff, 6-3.\n\nThe ruling said the 1977 law Trump used to enact the tariffs didn't give him the \"power to unilaterally impose tariffs of unlimited amount, duration, and scope.\"\n\nThe catch? Trump called the ruling a \"disaster\" and signaled there are other paths to keeping tariffs in place."
+    "note": "*Numbers as of market close on Feb 23rd",
+    "commentary": "AI Recession Warning:\n\nOver the weekend, a report from Citrini Research went viral. The firm lays out a scenario in which AI adoption will be successful, but lead to a recession in 2028. The report says unemployment could go above 10%, and the stock market could fall nearly 40%. But before we all freak out... Citrini says the doomsday scenario is just a \"thought experiment\" and not a prediction.\n\nTariff Updates:\n\nLast week the Supreme Court struck down President Trump's tariffs, saying they were illegal. But Trump had a back-up plan, and announced a new 10% universal tariff using a different law. Then, over the weekend, he increased that to a 15% universal tariff — which is the legal limit. The E.U. responded by pausing its talks for a trade deal with the U.S."
   },
   "crypto": {
-    "btc": "$65,801.27",
-    "eth": "$1,858.00",
-    "xrp": "$1.42",
-    "note": "*Numbers as of market close on Feb 22nd",
-    "commentary": "Small investors are buying bitcoin. It now needs bigger players to show up to continue the momentum and drive prices higher in 2026."
+    "btc": "$62,900.00",
+    "eth": "$1,811.00",
+    "xrp": "$1.32",
+    "note": "*Numbers as of market close on Feb 23rd",
+    "commentary": "It's no secret that \"selling high\" is what most traders and investors try to do. But recently, some big crypto players have been selling into weakness, or selling even as prices drop.\n\nEthereum founder Vitalik Buterin has sold millions of dollars worth of the crypto in the last few days."
   },
   "real_estate": {
-    "rate_30year": "6.04%",
+    "rate_30year": "6.07%",
     "rate_15year": "5.60%",
-    "homebuilder": "Vallejo-based modular homebuilder Harbinger Production (formerly Factory_OS) has warned employees of potential mass layoffs affecting nearly 290 workers due to a production gap and funding challenges.",
-    "commentary": "The Bay Area market enters the spring season as a strong seller's market with extremely tight supply. While single-family home prices in Alameda County are up nearly 3% year-over-year, the condominium market is softening with extended days on market and declining median prices.\n\nLatest Real Estate News in the Bay Area:\n\n• Fremont Market Momentum: The market in Fremont is starting 2026 with more activity than expected, recording 53 homes sold and 69 pending in the most recent monthly cycle. Showings have increased across the board, with well-located single-family homes drawing immediate interest and decisive action from buyers.\n\n• Divergent Trends in the East Bay: A clear split has emerged between property types; single-family homes in Alameda County sell in a median of 19 days, while condominiums now sit for a median of 51 days. This divergence offers greater negotiating leverage for buyers in the condo segment compared to the highly competitive single-family market.\n\n• Critical Inventory Shortages: Supply levels remain significantly lower than last year, with total inventory for single-family homes and condos down approximately 18% to 20% year-over-year. In Alameda County, inventory represents only 1.1 months of supply, signaling intense competition as the peak spring demand period approaches.\n\nLatest General News in the Bay Area:\n\n• BART Service Updates: BART has resumed normal train service through the Transbay Tube following earlier disruptions. However, riders on the Antioch Line should still expect roughly 20-minute delays between Antioch and Pittsburg/Bay Point due to ongoing track maintenance.\n\n• Fremont Public Safety: Local authorities continue to investigate a fatal shooting that occurred earlier this month near Central Avenue and Joseph Street. This incident, which marked the city's second homicide of 2026, remains an active investigation by the Crimes Against Persons Unit.\n\n• Milpitas Community Notice: Residents are reminded that community resources and transit updates remain steady, with local advisories focused on infrastructure improvements and ongoing BART escalator modernizations at nearby transit hubs."
+    "homebuilder": "Shore Consulting and Zonda have announced a strategic partnership to align premier sales and marketing leadership events for homebuilder executives in 2026.",
+    "commentary": "The Bay Area remains a strong seller's market with extremely tight supply, particularly for single-family homes in Santa Clara and Alameda Counties, where inventory sits at approximately 0.9 to 1.1 months.\n\nLatest Real Estate News in the Bay Area:\n\n• Divergence in East Bay Property Types: While single-family home prices in Alameda County rose 2.86% year-over-year to a median of $1,150,000, the condominium market saw a 6.36% price decline. Single-family homes are moving quickly in about 19 days, whereas condos are sitting for an average of 51 days.\n\n• Silicon Valley Inventory Crisis: Santa Clara County's single-family home inventory is down 12% compared to last year. This scarcity has kept the region in a firm seller's market, even as the median single-family home price saw a modest year-over-year dip of 3.89% to $1,730,051.\n\n• Shifts in Homeowner Mobility: Economic analysts suggest that the \"lock-in\" effect of low pandemic-era mortgage rates is slowly fading as more homeowners now hold rates above 6%. However, sluggish hiring confidence may now be a larger constraint on household mobility than borrowing rates alone."
   },
   "sources": [
-    "https://www.politico.com/news/2026/02/20/trump-tariffs-supreme-court-ruling-00790687",
-    "https://www.mortgagenewsdaily.com/",
-    "https://www.coindesk.com/markets/2026/02/21/small-investors-are-buying-bitcoin-it-now-needs-bigger-players-to-show-up",
-    "https://www.bankrate.com/mortgages/30-year-mortgage-rates/",
-    "https://www.reuters.com/business/autos-transportation/tesla-cuts-price-cybertruck-cyberbeast-us-2026-02-20/",
-    "https://www.sfgate.com/tech/article/harbinger-homebuilder-layoff-gap-21368163.php",
-    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.bankrate.com/mortgages/mortgage-rates/",
+    "https://www.mortgagenewsdaily.com/mortgage-rates/15-year-fixed",
+    "https://www.nasdaq.com/articles/stock-market-news-feb-24-2026",
+    "https://ascendre.com/blog/silicon-valley-market-update-february-2026",
     "https://ascendre.com/blog/east-bay-housing-update-february-2026",
-    "https://eddieoberoi.com/blog/fremont-february-housing-market-update",
-    "https://pintu.co.id/en/news/258811-ethereum-price-update-23feb2026",
-    "https://www.bart.gov/schedules/advisories",
-    "https://www.fremontpolice.gov/Home/Components/News/News/1638/15"
+    "https://sanjosespotlight.com/news/politics-government/santa-clara-county/",
+    "https://californialocal.com/localnews/santa-clara/ca/article/show/569939-the-news-february-23-2026/",
+    "https://www.realestatenews.com/2026/02/24/if-not-low-mortgage-rates-what-will-unlock-the-housing-market",
+    "https://www.bloomberg.com/news/articles/2026-02-23/paypal-attracts-takeover-interest-after-stock-slump",
+    "https://www.coindesk.com/markets/2026/02/23/ethereum-founder-vitalik-buterin-accelerates-ether-sales",
+    "https://finance.yahoo.com/news/software-payments-shares-tumble-citrini-162303649.html"
   ]
 }
