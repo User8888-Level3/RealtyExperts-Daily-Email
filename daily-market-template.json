@@ -1,46 +1,46 @@
 {
-  "date": "02/24/26",
+  "date": "02/25/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/7a1d15eb-dc40-408d-9ffc-4461fe867922",
-  "qr_code_path": "note-qr-7a1d15eb.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/85d998f9-b965-4556-9b41-3d37dfce7bf8",
+  "qr_code_path": "note-qr-85d998f9.png",
   "stocks": {
-    "sp500": "6,837.75",
-    "dow": "48,804.06",
-    "nasdaq": "22,627.27",
-    "note": "*Numbers as of market close on Feb 23rd",
-    "news": "The PayPal Pop:\n\nPayPal (PYPL +5.76%) shares popped on Monday on news that it could be a takeover target.\n\nShares are down more than 85% from their highs in 2021, and some companies are eyeing it as an acquisition target.\n\nPayPal operates Venmo, which is one of the largest peer-to-peer payment networks in the world."
+    "sp500": "6,890.07",
+    "dow": "49,174.50",
+    "nasdaq": "22,863.68",
+    "note": "*Numbers as of market close on Feb 25th",
+    "news": "Cava Beats Earnings:\n\nCava (CAVA -0.79%) cleared earnings expectations, sending the stock higher.\n\nCava, Chipotle (CMG -0.35%) and other fast casual chains have had a tough year in the market.\n\nBut Cava ended up reporting record revenue and said it expects to continue to grow in 2026."
   },
   "economy": {
     "us10year": "4.04%",
-    "gold": "$5,196.42",
-    "silver": "$87.41",
-    "note": "*Numbers as of market close on Feb 23rd",
-    "commentary": "AI Recession Warning:\n\nOver the weekend, a report from Citrini Research went viral. The firm lays out a scenario in which AI adoption will be successful, but lead to a recession in 2028. The report says unemployment could go above 10%, and the stock market could fall nearly 40%. But before we all freak out... Citrini says the doomsday scenario is just a \"thought experiment\" and not a prediction.\n\nTariff Updates:\n\nLast week the Supreme Court struck down President Trump's tariffs, saying they were illegal. But Trump had a back-up plan, and announced a new 10% universal tariff using a different law. Then, over the weekend, he increased that to a 15% universal tariff — which is the legal limit. The E.U. responded by pausing its talks for a trade deal with the U.S."
+    "gold": "$5,248.89",
+    "silver": "$90.70",
+    "note": "*Numbers as of market close on Feb 25th",
+    "commentary": "Consumer Confidence Rebounds:\n\nU.S. consumer confidence has been trending lower — but finally got a bounce in the latest report. Respondents said they're feeling better about job opportunities and inflation. Worth noting: The survey was conducted before the Supreme Court struck down President Trump's tariffs.\n\nTrump's 401k Plan:\n\nPresident Trump called for government-backed 401k plans in last night's State of the Union address.\n\nNew Tariffs in Effect:\n\nPresident Trump's new global tariffs took effect Tuesday, at 10%, for the next 150 days. He had posted on Truth Social over the weekend it would be 15%, and that is still his goal. An ING analyst says Trump could just keep ordering 150 days' worth of tariffs as a new strategy."
   },
   "crypto": {
-    "btc": "$62,900.00",
-    "eth": "$1,811.00",
-    "xrp": "$1.32",
-    "note": "*Numbers as of market close on Feb 23rd",
-    "commentary": "It's no secret that \"selling high\" is what most traders and investors try to do. But recently, some big crypto players have been selling into weakness, or selling even as prices drop.\n\nEthereum founder Vitalik Buterin has sold millions of dollars worth of the crypto in the last few days."
+    "btc": "$67,117.88",
+    "eth": "$1,935.00",
+    "xrp": "$1.38",
+    "note": "*Numbers as of market close on Feb 25th",
+    "commentary": "No Pardon for SBF:\n\nAccording to reports, President Trump will not issue a pardon for Sam Bankman-Fried.\n\nSBF was the founder of FTX, a crypto exchange that collapsed due to fraud.\n\nSome people thought Trump may issue a pardon to SBF after Binance's founder, Changpeng Zhao, was pardoned."
   },
   "real_estate": {
-    "rate_30year": "6.07%",
-    "rate_15year": "5.60%",
-    "homebuilder": "Shore Consulting and Zonda have announced a strategic partnership to align premier sales and marketing leadership events for homebuilder executives in 2026.",
-    "commentary": "The Bay Area remains a strong seller's market with extremely tight supply, particularly for single-family homes in Santa Clara and Alameda Counties, where inventory sits at approximately 0.9 to 1.1 months.\n\nLatest Real Estate News in the Bay Area:\n\n• Divergence in East Bay Property Types: While single-family home prices in Alameda County rose 2.86% year-over-year to a median of $1,150,000, the condominium market saw a 6.36% price decline. Single-family homes are moving quickly in about 19 days, whereas condos are sitting for an average of 51 days.\n\n• Silicon Valley Inventory Crisis: Santa Clara County's single-family home inventory is down 12% compared to last year. This scarcity has kept the region in a firm seller's market, even as the median single-family home price saw a modest year-over-year dip of 3.89% to $1,730,051.\n\n• Shifts in Homeowner Mobility: Economic analysts suggest that the \"lock-in\" effect of low pandemic-era mortgage rates is slowly fading as more homeowners now hold rates above 6%. However, sluggish hiring confidence may now be a larger constraint on household mobility than borrowing rates alone."
+    "rate_30year": "6.04%",
+    "rate_15year": "5.58%",
+    "homebuilder": "Mattamy Homes' Tampa Division has been recognized as a \"Best Place to Work\" for the eighth consecutive year, highlighted as a top mid-sized employer.",
+    "commentary": "The Bay Area continues to be a strong seller's market characterized by historically tight inventory and stable-to-rising median prices, particularly in high-demand pockets supported by AI sector growth.\n\nLatest Real Estate News in the Bay Area:\n\n🏡 Inventory Shortages Persist: Across Silicon Valley, single-family home inventory remains down 12% year-over-year, keeping the region firmly in a seller's market with less than one month of supply in Santa Clara County.\n\n🏡 A Tale of Two Markets: A significant divergence has emerged between property types; single-family homes in Alameda County move quickly in roughly 19 days, while condominiums are sitting for an average of 51 days as their values soften.\n\n🏡 Price Performance Trends: While Santa Clara County saw a modest 3.89% year-over-year dip in median single-family prices to $1,730,051, Alameda County saw a turnaround with prices rising 2.86% to a median of $1,150,000."
   },
   "sources": [
-    "https://www.bankrate.com/mortgages/mortgage-rates/",
     "https://www.mortgagenewsdaily.com/mortgage-rates/15-year-fixed",
-    "https://www.nasdaq.com/articles/stock-market-news-feb-24-2026",
+    "https://www.bankrate.com/mortgages/todays-rates/mortgage-rates-for-wednesday-february-25-2026/",
+    "https://marksrealtygroup.com/blog/san-francisco-and-marin-county-february-real-estate-market-report",
     "https://ascendre.com/blog/silicon-valley-market-update-february-2026",
     "https://ascendre.com/blog/east-bay-housing-update-february-2026",
-    "https://sanjosespotlight.com/news/politics-government/santa-clara-county/",
-    "https://californialocal.com/localnews/santa-clara/ca/article/show/569939-the-news-february-23-2026/",
-    "https://www.realestatenews.com/2026/02/24/if-not-low-mortgage-rates-what-will-unlock-the-housing-market",
-    "https://www.bloomberg.com/news/articles/2026-02-23/paypal-attracts-takeover-interest-after-stock-slump",
-    "https://www.coindesk.com/markets/2026/02/23/ethereum-founder-vitalik-buterin-accelerates-ether-sales",
-    "https://finance.yahoo.com/news/software-payments-shares-tumble-citrini-162303649.html"
+    "https://www.nasdaq.com/articles/stock-market-news-feb-25-2026",
+    "https://www.theblock.co/post/391104/white-house-reiterates-trump-has-no-plans-to-pardon-sam-bankman-fried-despite-ftx-founders-social-media-push",
+    "https://www.reuters.com/business/new-us-tariffs-come-lower-10-rate-2026-02-24/",
+    "https://www.bloomberg.com/news/articles/2026-02-24/us-consumer-confidence-rises-on-stronger-views-of-economy-jobs",
+    "https://www.investing.com/news/economy-news/jp-morgan-raises-longterm-gold-price-forecast-to-4500-4524848",
+    "https://sanjosespotlight.com/news/politics-government/milpitas/"
   ]
 }
