@@ -1,46 +1,47 @@
 {
-  "date": "02/25/26",
+  "date": "02/26/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/85d998f9-b965-4556-9b41-3d37dfce7bf8",
-  "qr_code_path": "note-qr-85d998f9.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/149e85c9-822c-41b9-b9d6-0129893768b2",
+  "qr_code_path": "note-qr-149e85c9.png",
   "stocks": {
-    "sp500": "6,890.07",
-    "dow": "49,174.50",
-    "nasdaq": "22,863.68",
-    "note": "*Numbers as of market close on Feb 25th",
-    "news": "Cava Beats Earnings:\n\nCava (CAVA -0.79%) cleared earnings expectations, sending the stock higher.\n\nCava, Chipotle (CMG -0.35%) and other fast casual chains have had a tough year in the market.\n\nBut Cava ended up reporting record revenue and said it expects to continue to grow in 2026."
+    "sp500": "6,946.13",
+    "dow": "49,482.15",
+    "nasdaq": "23,152.08",
+    "note": "*Numbers as of market close on Feb 26th at 4:00 PM ET",
+    "news": "Nvidia Earnings Beat:\n\nInvestors were calling Nvidia's (NVDA +1.44%) earnings report last night a \"make or break\" moment.\n\nWhat happened? The company beat Wall St. expectations for Q4 2025 earnings, as well as future outlook. The company expects $5B more in revenue in Q1 than analysts predicted — and that's assuming no revenue from China.\n\nThe stock's performance has been mostly flat for several months, but rose 3% in after-hours trading."
   },
   "economy": {
-    "us10year": "4.04%",
-    "gold": "$5,248.89",
-    "silver": "$90.70",
-    "note": "*Numbers as of market close on Feb 25th",
-    "commentary": "Consumer Confidence Rebounds:\n\nU.S. consumer confidence has been trending lower — but finally got a bounce in the latest report. Respondents said they're feeling better about job opportunities and inflation. Worth noting: The survey was conducted before the Supreme Court struck down President Trump's tariffs.\n\nTrump's 401k Plan:\n\nPresident Trump called for government-backed 401k plans in last night's State of the Union address.\n\nNew Tariffs in Effect:\n\nPresident Trump's new global tariffs took effect Tuesday, at 10%, for the next 150 days. He had posted on Truth Social over the weekend it would be 15%, and that is still his goal. An ING analyst says Trump could just keep ordering 150 days' worth of tariffs as a new strategy."
+    "us10year": "4.05%",
+    "gold": "$5,196.42",
+    "silver": "$87.41",
+    "note": "*Numbers as of market close on Feb 26th at 4:00 PM ET",
+    "commentary": "The New 401k Plan:\n\nPresident Trump unveiled a new 401k/retirement plan during Tuesday's State of the Union address.\n\nHow it works: Trump says the government will match $1k annually for people to save in a retirement account.\n\nWho's eligible? Workers who do not already have access to an employer-sponsored 401k — around 56M people.\n\nLower Rates, More Refinances:\n\nMortgage rates have now hit their lowest rate in years, spurring a wave of refinances.\n\nAn index that tracks refinancing activity spiked up more than 4%, and refinancing activity has trended higher throughout the year as rates fall.\n\nBut: There hasn't been a strong wave of buying activity, despite the lower rates."
   },
   "crypto": {
-    "btc": "$67,117.88",
-    "eth": "$1,935.00",
-    "xrp": "$1.38",
-    "note": "*Numbers as of market close on Feb 25th",
-    "commentary": "No Pardon for SBF:\n\nAccording to reports, President Trump will not issue a pardon for Sam Bankman-Fried.\n\nSBF was the founder of FTX, a crypto exchange that collapsed due to fraud.\n\nSome people thought Trump may issue a pardon to SBF after Binance's founder, Changpeng Zhao, was pardoned."
+    "btc": "$68,164.00",
+    "eth": "$1,858.00",
+    "xrp": "$1.44",
+    "note": "*Numbers as of market close on Feb 26th at 4:00 PM ET",
+    "commentary": "Coinbase Adds Stock Trading:\n\nCoinbase (COIN +13.52%) shares took off yesterday, trading up more than 10% on news that it officially added stock trading to its platform.\n\nThat means that users will be able to trade shares of stocks 24/7, in addition to cryptos on the app.\n\nCoinbase has said it wants to become the \"everything exchange,\" allowing users to trade basically anything."
   },
   "real_estate": {
-    "rate_30year": "6.04%",
-    "rate_15year": "5.58%",
-    "homebuilder": "Mattamy Homes' Tampa Division has been recognized as a \"Best Place to Work\" for the eighth consecutive year, highlighted as a top mid-sized employer.",
-    "commentary": "The Bay Area continues to be a strong seller's market characterized by historically tight inventory and stable-to-rising median prices, particularly in high-demand pockets supported by AI sector growth.\n\nLatest Real Estate News in the Bay Area:\n\n🏡 Inventory Shortages Persist: Across Silicon Valley, single-family home inventory remains down 12% year-over-year, keeping the region firmly in a seller's market with less than one month of supply in Santa Clara County.\n\n🏡 A Tale of Two Markets: A significant divergence has emerged between property types; single-family homes in Alameda County move quickly in roughly 19 days, while condominiums are sitting for an average of 51 days as their values soften.\n\n🏡 Price Performance Trends: While Santa Clara County saw a modest 3.89% year-over-year dip in median single-family prices to $1,730,051, Alameda County saw a turnaround with prices rising 2.86% to a median of $1,150,000."
+    "rate_30year": "6.05%",
+    "rate_15year": "5.44%",
+    "homebuilder": "Homebuilders remain cautious as industry leaders predict remodeling will outshine new construction in 2026 due to high material costs and mortgage rates expected to stay above 6% through the year.",
+    "commentary": "The Bay Area is seeing a \"tale of two markets\" with single-family homes selling quickly in under 20 days while the condo market has slowed significantly, with units sitting for an average of 51 to 55 days.\n\nLatest Real Estate News in the Bay Area:\n\n🏡 Diverging Values in the East Bay: Single-family home prices in Alameda County have seen a turnaround, rising 2.86% year-over-year to a median of $1,150,000. Conversely, the condominium market remains under pressure with a 6.36% decline in median prices and nearly double the time on market compared to detached homes.\n\n🏡 Silicon Valley Inventory Squeeze: Santa Clara County continues to face an acute supply shortage, with single-family inventory down 12% compared to last year. The market remains firmly in seller territory with less than one month of supply (0.9 MSI), though median prices saw a modest annual dip of 3.89% to approximately $1.73 million.\n\n🏡 Shifting Buyer Leverage: While single-family homes in prime areas like Fremont and Milpitas still move rapidly, buyers are gaining more negotiating power in the condo segment. Seasonal cooling has brought more balance to attached housing, where days on market and market absorption have increased significantly.\n\nLatest General News in the Bay Area:\n\n📰 Community Mourning in Milpitas: The local community is mourning a 29-year-old Milpitas motorcyclist who tragically succumbed to his injuries following a solo collision with a traffic island in Newark earlier this month.\n\n📰 Fremont Civic Updates: The Fremont Fire Department and Newark Police recently handled major traffic fatalities while local school boards and community centers prepare for upcoming March job fairs and student internship events.\n\n📰 Milpitas Dining Milestone: Local residents are bidding a final farewell to Koong's, a staple Chinese restaurant in Milpitas that officially closed its doors after more than 40 years of service to the community."
   },
   "sources": [
-    "https://www.mortgagenewsdaily.com/mortgage-rates/15-year-fixed",
-    "https://www.bankrate.com/mortgages/todays-rates/mortgage-rates-for-wednesday-february-25-2026/",
-    "https://marksrealtygroup.com/blog/san-francisco-and-marin-county-february-real-estate-market-report",
-    "https://ascendre.com/blog/silicon-valley-market-update-february-2026",
-    "https://ascendre.com/blog/east-bay-housing-update-february-2026",
-    "https://www.nasdaq.com/articles/stock-market-news-feb-25-2026",
-    "https://www.theblock.co/post/391104/white-house-reiterates-trump-has-no-plans-to-pardon-sam-bankman-fried-despite-ftx-founders-social-media-push",
-    "https://www.reuters.com/business/new-us-tariffs-come-lower-10-rate-2026-02-24/",
-    "https://www.bloomberg.com/news/articles/2026-02-24/us-consumer-confidence-rises-on-stronger-views-of-economy-jobs",
-    "https://www.investing.com/news/economy-news/jp-morgan-raises-longterm-gold-price-forecast-to-4500-4524848",
-    "https://sanjosespotlight.com/news/politics-government/milpitas/"
+    "https://www.mortgagenewsdaily.com/",
+    "https://www.bankrate.com/mortgages/mortgage-rates/",
+    "https://www.cbsnews.com/news/trump-retirement-account-state-of-the-union-for-people-without-401ks/",
+    "https://www.cnbc.com/2026/02/24/stock-market-today-live-updates.html",
+    "https://coinmarketcap.com/academy/article/coinbase-opens-commission-free-stock-trading-to-all-us-users",
+    "https://www.homes.com/news/remodeling-to-outshine-new-construction-market-in-2026-industry-leaders-say/",
+    "https://www.bloomberg.com/news/articles/2026-02-25/us-mortgage-rates-reach-lowest-since-2022-boosting-refinancing",
+    "https://www.nasdaq.com/articles/stock-indexes-settle-higher-strength-tech",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.financemagnates.com/trending/how-low-can-bitcoin-go-btc-sees-best-rally-in-10-month-but-30-forecast-still-on-the-table/",
+    "https://tricityvoice.com/milpitas-motorcyclist-succumbs-to-injured-after-collision/",
+    "https://milpitasbeat.com/recent-posts/"
   ]
 }
