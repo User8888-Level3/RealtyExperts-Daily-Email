@@ -1,48 +1,48 @@
 {
-  "date": "02/27/26",
+  "date": "03/02/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/e3ca546d-cd66-4787-881c-b513447cb906",
-  "qr_code_path": "note-qr-e3ca546d.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/01c723ac-e9b6-4162-b30e-0db46c7d1ba7",
+  "qr_code_path": "note-qr-01c723ac.png",
   "stocks": {
-    "sp500": "6,908.86",
-    "dow": "49,499.20",
-    "nasdaq": "22,878.38",
-    "note": "*Numbers as of market close on Feb 27th at 4:00 PM ET",
-    "news": "Stellantis Posts Historic Loss:\n\nJeep maker Stellantis reported its first annual loss in company history, posting a full-year 2025 net loss of €22.3 billion ($26.3 billion), compared to a profit of €5.5 billion in 2024. The loss was driven by EV write-downs across its brands including Jeep, Dodge, Fiat, Chrysler, and Peugeot.\n\nNvidia Beats But Falls:\n\nNvidia (NVDA -5.46%) beat Q4 earnings expectations — reporting adjusted EPS of $1.62 vs. estimates of $1.53 and revenue of $68.1 billion vs. estimates of $65.9 billion — but the stock fell anyway. Markets had priced in perfection, and investors used the beat as an opportunity to sell. Nvidia has now fallen more than 5% over two consecutive sessions."
+    "sp500": "6,828.01",
+    "dow": "48,540.74",
+    "nasdaq": "22,505.06",
+    "note": "*Numbers as of market close on Feb 28th at 4:00 PM ET",
+    "news": "Netflix Spikes On No Deal:\n\nNetflix (NFLX +13.75%) officially backed out of the bidding war to acquire Warner Bros. after Paramount Skydance (PSKY +20.84%) increased its competing offer. Investors responded enthusiastically to Netflix's decision to walk away, viewing it as a smart financial move — sending Netflix shares spiking over 13% on Friday. Warner Bros. Discovery (WBD -2.19%) fell on the news."
   },
   "economy": {
-    "us10year": "1.72% (Real)",
-    "gold": "$5,192.19",
-    "silver": "$92.00",
-    "note": "*Numbers as of market close on Feb 27th at 4:00 PM ET",
-    "commentary": "Low-Hire, Low-Fire Job Market:\n\nWeekly jobless claims came in at 212K, better than the expected 216K — a positive sign for labor market resilience. But economists caution this isn't necessarily good news. The market is stuck in \"low-hire, low-fire\" territory: employers aren't adding jobs, but they're not cutting them either. Businesses appear to be in a holding pattern as they wait for more economic clarity.\n\nGDP Miss + Sticky Inflation:\n\nFourth-quarter U.S. GDP grew just 1.4%, badly missing Wall Street estimates. At the same time, inflation firmed at 3% — well above the Fed's 2% target. The combination of slowing growth and sticky inflation raises the risk of stagflation, keeping the Fed in a difficult position heading into spring.\n\nNote: The 10-Year Treasury nominal yield fell below 4% to ~3.97% on Friday — its lowest in three months — as investors fled to safety amid stock market declines."
+    "us10year": "4.03%",
+    "gold": "$5,321.78",
+    "silver": "$89.53",
+    "note": "*Numbers as of market close on Feb 28th at 4:00 PM ET",
+    "commentary": "Iran Conflict Sends Oil Soaring:\n\nOil is expected to open significantly higher today as U.S. military operations in Iran continue. After sitting around $67 on Friday, crude oil is projected to surpass $90 today — representing one of the biggest price leaps in years. Heightened uncertainty in the Middle East is stoking investor fears over potential oil supply disruptions."
   },
   "crypto": {
-    "btc": "$66,042.61",
-    "eth": "$1,980.00",
-    "xrp": "$1.40",
-    "note": "*Numbers as of market close on Feb 27th at 4:00 PM ET",
-    "commentary": "Crypto CEO Arrested Over $328M 'Ponzi Scheme':\n\nGoliath Ventures CEO Christopher Alexander Delgado has been arrested and charged with wire fraud and money laundering in connection with an alleged $328 million crypto Ponzi scheme. If convicted, Delgado faces a maximum sentence of 30 years in prison. The case is a stark reminder of the ongoing fraud risk in unregulated corners of the crypto market."
+    "btc": "$68,573.24",
+    "eth": "~$1,950.00",
+    "xrp": "$1.34",
+    "note": "*Numbers as of market close on Feb 28th at 4:00 PM ET",
+    "commentary": "Morgan Stanley Goes All-In on Bitcoin:\n\nMorgan Stanley (MS -6.19%) is making a massive move into crypto by developing its own in-house Bitcoin trading and custody platform. With nearly $9 trillion in assets under management, the financial giant is going beyond just offering Bitcoin ETFs — they will soon directly hold and trade Bitcoin on behalf of their clients. Spot trading will debut on the E*Trade app first, with comprehensive custody services launching over the next 12 months."
   },
   "real_estate": {
-    "rate_30year": "6.04%",
-    "rate_15year": "5.45%",
-    "homebuilder": "J.P. Morgan Global Research projects U.S. house prices to stall at 0% in 2026 as increased supply from new construction balances out muted demand — a significant shift from the price growth seen in recent years.",
-    "commentary": "The Bay Area continues to face extremely tight supply, particularly for single-family homes, while the condominium segment is seeing a significant slowdown with increased days on market.\n\nLatest Real Estate News in the Bay Area:\n\n🏡 Divergent Markets in Silicon Valley: In Santa Clara County, the median price for single-family homes saw a 3.89% year-over-year decline to $1,730,051, while inventory remains 12% lower than last year. In contrast, Alameda County single-family median prices rose 2.86% to $1,150,000.\n\n🏡 Condo Market Slowdown: Across the region, condominiums are spending significantly more time on the market than single-family homes. In Santa Clara County, condos are averaging 55 days on the market — a 57% increase year-over-year — compared to just 14 days for single-family homes.\n\n🏡 Seller's Market Strength: Both Alameda and Santa Clara counties remain firmly in seller's market territory with less than one month of supply for single-family homes (0.9 to 1.1 months of inventory).\n\nLatest General News in the Bay Area:\n\n📰 Public Safety Incident in Fremont: Police recently clarified a shooting incident where a sergeant accidentally discharged his weapon and injured a burglary suspect after being bitten by a police dog during the arrest.\n\n📰 Black History Month Celebration: The Fremont Age Well Center is hosting the \"Ijo Ope\" Black History Month celebration today, February 27.\n\n📰 Milpitas Area Service Updates: Local libraries continue to host community events, including \"Bouncing Babies Storytime\" at the Fremont Library today, while regional high school sports move into playoff seasons."
+    "rate_30year": "5.99%",
+    "rate_15year": "5.60%",
+    "homebuilder": "\"Can't Sell House\" Searches Hit Crisis Levels: Google searches for the phrase \"can't sell house\" are currently at their highest point since the 2008 financial crisis. This data clearly shows homeowners are facing significant challenges in finding willing buyers. The good news is that dropping mortgage rates may soon encourage more buyers to re-enter the market.\n\nA new bill introduced in the U.S. Senate, the \"Housing Tariff Exclusion Act,\" seeks to exempt homebuilding materials from current and future tariffs to reduce construction costs.",
+    "commentary": "The Bay Area market is entering a more balanced phase with inventory projected to rise by roughly 10%, though median prices remain high at approximately $1.25 million region-wide.\n\nLatest Real Estate News in the Bay Area:\n\n🏡 Inventory and Market Shift: Silicon Valley's single-family market remains tight with inventory down 12% year-over-year. However, a broader Bay Area outlook for 2026 suggests a shift toward more balanced conditions as home prices stabilize rather than skyrocket, and listing periods begin to lengthen.\n\n🏡 A Tale of Two Markets: There is a significant divergence between property types; single-family homes in Santa Clara County sell in a median of 14 days, while condominiums are sitting for an average of 55 days — a 57% increase in time-on-market compared to last year.\n\n🏡 Price Performance: Median prices for single-family homes in Santa Clara County saw a modest 3.89% year-over-year dip to $1,730,051, whereas adjacent counties like San Mateo saw gains, highlighting localized volatility.\n\nLatest General News in the Bay Area:\n\n📰 Fremont Community Events: Local families are looking forward to upcoming community events, including the Troop 269 Annual Pancake Breakfast Fundraiser scheduled for March 9 at the Veterans' Memorial.\n\n📰 Public Safety and History: While Fremont police continue active investigations into recent incidents, the community recently gathered to celebrate local culture and history at Chinese New Year events and the Museum of Local History.\n\n📰 Regional Transit and Schools: Local educators and students in the tri-city area are being recognized for excellence, with recent highlights including students from the Alameda County Water District participating in regional video projects."
   },
   "sources": [
+    "https://www.mortgagenewsdaily.com/",
     "https://www.bankrate.com/mortgages/mortgage-rates/",
-    "https://www.bloomberg.com/news/articles/2026-02-26/us-jobless-claims-edged-higher-to-212-000-in-holiday-week",
-    "https://www.cnbc.com/2026/02/20/pce-inflation-december-2025.html",
-    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026",
-    "https://www.cnbc.com/2026/02/26/stellantis-earnings-full-year-2025-autos-evs.html",
-    "https://www.jpmorgan.com/insights/global-research/real-estate/us-housing-market-outlook",
-    "https://decrypt.co/359211/goliath-ventures-ceo-arrested-over-328m-crypto-ponzi-scheme",
-    "https://www.nasdaq.com/articles/stock-market-news-feb-27-2026",
-    "https://www.wam.ae/en/article/173fds2-gold-broadly-steady-fall-treasury-yields-balances",
-    "https://tradingeconomics.com/commodity/silver/news/529166",
-    "https://www.mitrade.com/au/insights/news/live-news/article-3-1510421-20260227",
-    "https://www.cbsnews.com/sanfrancisco/tag/fremont-police-department/",
-    "https://tricityvoice.com/"
+    "https://www.reuters.com/business/energy/us-gasoline-prices-rise-after-attack-iran-analysts-warn-2026-03-01/",
+    "https://www.cnbc.com/2026/02/26/warner-bros-discovery-paramount-skydance-deal-superior-netflix.html",
+    "https://wrenews.com/new-bill-would-exempt-homebuilding-materials-from-tariffs/",
+    "https://marksrealtygroup.com/blog/bay-area-real-estate-outlook-2026",
+    "https://finance.yahoo.com/news/t-sell-house-searches-higher-140000682.html",
+    "https://ascendre.com/blog/silicon-valley-market-update-february-2026",
+    "https://halifax.citynews.ca/2026/03/02/sp-tsx-composite-down-more-than-100-points-u-s-stock-markets-also-fall-4/",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.fool.com/investing/2026/03/01/xrp-plunges-26-as-crypto-market-faces-headwinds/",
+    "https://tricityvoice.com/",
+    "https://decrypt.co/359312/morgan-stanley-offer-bitcoin-custody-trading-yield-lending-exec"
   ]
 }
