@@ -2,9 +2,12 @@
   "name": "realtyexperts-daily-email",
   "version": "1.0.0",
   "description": "Automated Daily Market Email System for REALTY EXPERTS",
-  "main": "automate-daily-market.js",
+  "main": "run-daily.js",
   "scripts": {
-    "automate": "node automate-daily-market.js",
+    "daily": "node run-daily.js",
+    "post": "node create-post.js",
+    "email": "node generate-daily-email.js daily-market-template.json",
+    "inventory": "node update-inventory.js",
     "generate": "node generate-daily-email.js",
     "test": "echo \"No tests configured\" && exit 0"
   },
