@@ -1,47 +1,49 @@
 {
-  "date": "03/03/26",
+  "date": "03/04/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/33f65427-73ae-461c-921e-3348ef7a6346",
-  "qr_code_path": "note-qr-33f65427.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/593a2479-ec24-492b-9f2c-8d5a6e2b9a50",
+  "qr_code_path": "note-qr-593a2479.png",
   "stocks": {
-    "sp500": "6,881.62",
+    "sp500": "6,816.63",
     "dow": "48,225.00",
-    "nasdaq": "24,567.00",
-    "note": "*Futures — Markets open at 9:30 AM ET",
-    "news": "Defense Stocks Rally On Conflict:\n\nDefense names traded in the green yesterday, getting a boost from growing tensions overseas. Names like Lockheed Martin (LMT +3.37%) and RTX (RTX +4.71%) moved higher. The stocks could remain in focus for the next few weeks if the conflict persists.\n\nBerkshire Hathaway reported its last ever earnings report for a quarter in which Buffett was CEO. Shares moved lower after the investment giant saw operating profits fall. Its new CEO, Greg Abel, is sitting on a huge pile of cash to deploy when the firm finds investments that it likes."
+    "nasdaq": "22,516.69",
+    "note": "*DOW reflects futures — Markets open at 9:30 AM ET",
+    "news": "Despite opening sharply lower due to Middle East tensions, the market rallied to recover most of its losses yesterday, with the S&P 500 climbing over 1.5% from its lows. Experts note that stocks historically brush off overseas geopolitical shocks."
   },
   "economy": {
-    "us10year": "4.09%",
-    "gold": "$5,207.10",
-    "silver": "$81.93",
+    "us10year": "4.08%",
+    "gold": "$5,400.00",
+    "silver": "$93.82",
     "note": "",
-    "commentary": "Cash Me If You Can:\n\nNew federal rules rolled out on March 1st for all-cash buyers or transfers of real estate. The government says a lot of money laundering schemes involve real estate transactions, and all-cash deals can be tricky to track.\n\nCommon moves like transfers due to death, divorce or bankruptcy are exempt, but if it's an LLC, you need to file or face fines or jail time."
+    "commentary": "A drone strike in Qatar just shut down the world's largest natural gas plant, disrupting a region that supplies 20% of global LNG. With EU gas prices surging 76%, U.S. stocks like Cheniere Energy and Venture Global spiked. However, since these U.S. companies are already near full capacity, they'll capitalize on the crisis by raising prices rather than increasing production.\n\nWTI Crude Oil: $74.55 (+4.20%)"
   },
   "crypto": {
-    "btc": "$68,573.24",
+    "btc": "$71,065.57",
     "eth": "$2,012.00",
-    "xrp": "$1.40",
+    "xrp": "$1.37",
     "note": "",
-    "commentary": "What War Means For Bitcoin:\n\nAs Israel and the U.S. began attacks on Iran, Bitcoin showed volatility and dropped. Then, the coin started to recover.\n\nSome experts think that uncertainty and higher inflation from the conflict could hurt Bitcoin prices moving forward."
+    "commentary": "Following recent airstrikes, withdrawals at Iran's top crypto exchange, Nobitex, surged 700%. With nearly $3 million pulled over the weekend, Iranians are relying on crypto to move their money abroad since their traditional banking system remains globally isolated."
   },
   "real_estate": {
-    "rate_30year": "6.12%",
-    "rate_15year": "5.68%",
-    "homebuilder": "Capstone Holding Corp. (NASDAQ: CAPS) has secured new multi-year project wins with national homebuilders including Lennar, Adams Homes, and Toll Brothers, adding over 300,000 square feet of annualized demand.",
-    "commentary": "The Bay Area remains a strong seller's market for single-family homes with less than one month of inventory (0.9 MSI) in both Santa Clara and San Mateo counties. While detached homes move quickly, the condo market has shifted toward more balanced conditions, with units averaging 55 days on the market in Santa Clara County.\n\nLatest Real Estate News in the Bay Area:\n\n🏡 Inventory Constraints Drive Competition: Single-family home inventory across Silicon Valley remains 12% lower than last year, maintaining intense competition for buyers despite high interest rates. In Santa Clara County, the median price for single-family homes dipped slightly to $1,730,051, while inventory for detached houses sits at a critical low of 0.9 months.\n\n🏡 The Condo Market Slowdown: A \"tale of two markets\" has emerged in the South Bay and East Bay; while single-family homes go pending in about 14 days, condominiums are sitting significantly longer. In Santa Clara County, condos now average 55 days on the market — a 57% increase compared to 2025.\n\n🏡 San Francisco Market Rebound: The city has fully reversed its post-pandemic slowdown, with single-family homes selling for an average of 16% over asking price as activity picks up across various neighborhoods.\n\nLatest General News in the Bay Area:\n\n📰 Milpitas Leadership Search: The Milpitas City Council is set to consider the appointment of Christian M. Curtis as the next City Attorney during today's study session and regular meeting.\n\n📰 Newark Transit Infrastructure: Local land use experts have proposed transforming the NewPark Mall area by adding more lighting and sidewalks to the parking lot to improve safety and accessibility.\n\n📰 Public Safety and Community Events: Milpitas first responders successfully rescued a family trapped in an apartment fire earlier this week. Meanwhile, the community is preparing for the Holi Festival this Saturday, March 7, and the 35th annual Ohlone Athletics fundraiser."
+    "rate_30year": "5.87%",
+    "rate_15year": "5.37%",
+    "homebuilder": "Silicon Valley's inventory remains critically tight, with only 658 active single-family homes available in Santa Clara County for a population of nearly 2 million — as sellers are urged to leverage March for strategic positioning ahead of the spring listing season.",
+    "commentary": "🏡 Inventory and Seasonal Trends: Inventory remains the primary hurdle across Silicon Valley, with only 658 active single-family homes available for a population of nearly 2 million in Santa Clara County. Sellers are being urged to use March as a month for \"strategic positioning\" to prepare homes for the traditional April and May listing rush.\n\n🏡 Diverging Property Performance: A clear performance gap has emerged between property types; single-family homes remain highly competitive, while the condo and townhome market is expected to remain flat or slightly decline throughout early 2026.\n\n🏡 Buyer Adaptation: With mortgage rates holding steady above 6% for most, buyers are increasingly leveraging stock market gains, tech liquidity events, and intergenerational wealth transfers to offset higher borrowing costs.\n\nLatest General News in the Bay Area:\n\n📰 Heroic Rescue in Milpitas: Milpitas first responders recently made headlines for a heroic rescue of a family trapped in an apartment fire last weekend.\n\n📰 Student Activism: A few hundred Milpitas High School students recently staged a walkout to protest ICE enforcement, marching from campus to City Hall in a demonstration against federal immigration policies.\n\n📰 Legislative Push: Local Assemblymember Alex Lee has introduced AB 1675, a bill aimed at ensuring ICE contractors do not receive tax breaks, part of a broader push by Silicon Valley lawmakers to deter immigration enforcement within their districts."
   },
   "sources": [
-    "https://www.mortgagenewsdaily.com/",
-    "https://www.accessnewswire.com/newsroom/en/industrial-and-manufacturing/capstone-secures-new-homebuilder-projects-adding-immediate-revenue-and-1142567",
-    "https://www.cnbc.com/2026/03/02/defense-stocks-us-iran-israel-attacks-lockheed-renk-leonardo.html",
-    "https://fred.stlouisfed.org/series/SP500",
-    "https://decrypt.co/359562/what-the-iran-conflict-means-for-bitcoin-price",
-    "https://www.forbes.com/sites/martinshenkman/2026/02/28/new-reporting-rules-effective-march-1-affect-home-transfers-to-trusts/",
-    "https://tradingeconomics.com/united-states/government-bond-yield",
-    "https://pintu.co.id/en/news/261533-ethereum-price-update-3march2026",
-    "https://ascendre.com/blog/silicon-valley-market-update-february-2026",
-    "https://www.milpitas.gov/",
-    "https://tricityvoice.com/",
-    "https://milpitasbeat.com/category/news/headlines/"
+    "https://www.cbsnews.com/news/todays-mortgage-interest-rates-march-4-2026/",
+    "https://www.bankrate.com/mortgages/mortgage-rates/",
+    "https://www.prnewswire.com/news-releases/kb-home-announces-the-grand-opening-of-two-new-communities-within-the-desirable-creekstone-master-plan-in-winchester-california-302703515.html",
+    "https://www.nyse.com/index",
+    "https://www.elliptic.co/blog/iranian-cryptoasset-outflows-surge-700-percent-following-attacks",
+    "https://marksrealtygroup.com/blog/bay-area-real-estate-outlook-2026-what-california-homebuyers-and-sellers-need-to-know-now",
+    "https://english.news.cn/northamerica/20260304/6b0f4fc49361441585bb5b6ca5b1abbf/c.html",
+    "https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield-historical-data",
+    "https://www.financemagnates.com/trending/why-is-bitcoin-surging-btc-price-tests-72k-but-price-prediction-still-suggests-30-drop-to-50k/",
+    "https://www.disruptionbanking.com/2026/03/04/xrp-poised-for-major-repricing-if-clarity-act-passes-in-2026/",
+    "https://homesbyspencerhsu.com/blog/bay-area-real-estate-market-update-january-2026",
+    "https://milpitasbeat.com/",
+    "https://fortune.com/2026/03/03/us-oil-gas-exporters-cant-fill-middle-east-supply-gap-trumps-pledge-insure-protect-tankers-stems-tide-prices/",
+    "https://sanjosespotlight.com/bay-area-lawmakers-author-bills-to-deter-immigration-enforcement/"
   ]
 }
