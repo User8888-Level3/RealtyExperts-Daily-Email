@@ -1,49 +1,47 @@
 {
-  "date": "03/04/26",
+  "date": "03/05/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/593a2479-ec24-492b-9f2c-8d5a6e2b9a50",
-  "qr_code_path": "note-qr-593a2479.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/8ae77a78-3328-4bd0-ae6a-20b52b5fb38b",
+  "qr_code_path": "note-qr-8ae77a78.png",
   "stocks": {
-    "sp500": "6,816.63",
-    "dow": "48,225.00",
+    "sp500": "6,869.50",
+    "dow": "48,501.27",
     "nasdaq": "22,516.69",
-    "note": "*DOW reflects futures — Markets open at 9:30 AM ET",
-    "news": "Despite opening sharply lower due to Middle East tensions, the market rallied to recover most of its losses yesterday, with the S&P 500 climbing over 1.5% from its lows. Experts note that stocks historically brush off overseas geopolitical shocks."
+    "note": "*Numbers as of market close on March 4th at 4:00 PM ET",
+    "news": "Markets edged higher on Tuesday as investors shook off earlier geopolitical jitters. The S&P 500 rose to 6,869.50, the Dow climbed to 48,501.27, and the NASDAQ held steady at 22,516.69. Traders are now eyeing upcoming jobs data and Fed commentary for direction this week."
   },
   "economy": {
-    "us10year": "4.08%",
-    "gold": "$5,400.00",
-    "silver": "$93.82",
+    "us10year": "4.14%",
+    "gold": "$5,134.76",
+    "silver": "$82.82",
     "note": "",
-    "commentary": "A drone strike in Qatar just shut down the world's largest natural gas plant, disrupting a region that supplies 20% of global LNG. With EU gas prices surging 76%, U.S. stocks like Cheniere Energy and Venture Global spiked. However, since these U.S. companies are already near full capacity, they'll capitalize on the crisis by raising prices rather than increasing production.\n\nWTI Crude Oil: $74.55 (+4.20%)"
+    "commentary": "The 10-year Treasury yield ticked up to 4.14%, signaling continued caution around the Fed's rate path. Gold pulled back sharply to $5,134.76 and silver dropped to $82.82, retreating from recent highs as geopolitical tensions in the Middle East showed signs of easing.\n\nDespite the pullback, precious metals remain elevated on a year-over-year basis, reflecting persistent inflation hedging demand and central bank buying."
   },
   "crypto": {
-    "btc": "$71,065.57",
+    "btc": "$68,573.24",
     "eth": "$2,012.00",
-    "xrp": "$1.37",
+    "xrp": "$1.42",
     "note": "",
-    "commentary": "Following recent airstrikes, withdrawals at Iran's top crypto exchange, Nobitex, surged 700%. With nearly $3 million pulled over the weekend, Iranians are relying on crypto to move their money abroad since their traditional banking system remains globally isolated."
+    "commentary": "Bitcoin retreated to $68,573 as profit-taking continued following last week's rally, while Ethereum held flat at $2,012. XRP was the standout, climbing to $1.42 amid renewed optimism around the CLARITY Act — a bipartisan bill that could provide a clear regulatory framework for digital assets.\n\nAnalysts note that if the CLARITY Act gains traction in Congress, it could trigger a major repricing of XRP and other altcoins that have suffered from regulatory uncertainty."
   },
   "real_estate": {
-    "rate_30year": "5.87%",
-    "rate_15year": "5.37%",
-    "homebuilder": "Silicon Valley's inventory remains critically tight, with only 658 active single-family homes available in Santa Clara County for a population of nearly 2 million — as sellers are urged to leverage March for strategic positioning ahead of the spring listing season.",
-    "commentary": "🏡 Inventory and Seasonal Trends: Inventory remains the primary hurdle across Silicon Valley, with only 658 active single-family homes available for a population of nearly 2 million in Santa Clara County. Sellers are being urged to use March as a month for \"strategic positioning\" to prepare homes for the traditional April and May listing rush.\n\n🏡 Diverging Property Performance: A clear performance gap has emerged between property types; single-family homes remain highly competitive, while the condo and townhome market is expected to remain flat or slightly decline throughout early 2026.\n\n🏡 Buyer Adaptation: With mortgage rates holding steady above 6% for most, buyers are increasingly leveraging stock market gains, tech liquidity events, and intergenerational wealth transfers to offset higher borrowing costs.\n\nLatest General News in the Bay Area:\n\n📰 Heroic Rescue in Milpitas: Milpitas first responders recently made headlines for a heroic rescue of a family trapped in an apartment fire last weekend.\n\n📰 Student Activism: A few hundred Milpitas High School students recently staged a walkout to protest ICE enforcement, marching from campus to City Hall in a demonstration against federal immigration policies.\n\n📰 Legislative Push: Local Assemblymember Alex Lee has introduced AB 1675, a bill aimed at ensuring ICE contractors do not receive tax breaks, part of a broader push by Silicon Valley lawmakers to deter immigration enforcement within their districts."
+    "rate_30year": "6.08%",
+    "rate_15year": "5.47%",
+    "homebuilder": "Eastwood Homes is expanding its Greenville Division with several new communities across the Upstate region of South Carolina, with sales slated to begin in March — a sign that national builders remain confident in housing demand despite elevated rates.",
+    "commentary": "The Bay Area housing market is currently defined by a \"steady but not overheating\" phase, with housing inventory projected to rise roughly 10%. While detached single-family homes remain highly competitive, the condo and townhome segment has shown signs of flattening or slight decline.\n\n📍 Alameda County:\n• Median Sale Price: $925,000 — a 2.4% increase year-over-year\n• Homes Sold: Dropped by nearly 5%, reflecting cautious buyer activity\n• Market Outlook: Entering the critical March–May planning window with steady but measured demand\n\n📍 Santa Clara County:\n• Median Sale Price: $1,299,000\n• Inventory: Sharp month-over-month decline of approximately 25%\n• Key Trend: Single-family homes priced between $2M–$3M remain highly competitive, while condos and townhouses are expected to stay flat due to increased supply from long-term owners looking to sell before capital gains exclusion windows close\n\nLatest General News in the Bay Area:\n\n📰 Community Support in Milpitas: Local organizations recently rallied to support unhoused and immigrant residents following shifts in regional policy.\n\n📰 Legislative Push: Assemblymember Alex Lee has introduced Assembly Bill 1675, aimed at deterring immigration enforcement and removing tax breaks for private detention centers — part of a broader push by Silicon Valley lawmakers.\n\n📰 Farewell to Koong's: The Milpitas community is mourning the closure of Koong's, a staple Chinese restaurant that served the area for over four decades.\n\n📰 Heroic Rescue: Milpitas first responders were recently recognized for rescuing a family from an apartment fire."
   },
   "sources": [
-    "https://www.cbsnews.com/news/todays-mortgage-interest-rates-march-4-2026/",
     "https://www.bankrate.com/mortgages/mortgage-rates/",
-    "https://www.prnewswire.com/news-releases/kb-home-announces-the-grand-opening-of-two-new-communities-within-the-desirable-creekstone-master-plan-in-winchester-california-302703515.html",
-    "https://www.nyse.com/index",
-    "https://www.elliptic.co/blog/iranian-cryptoasset-outflows-surge-700-percent-following-attacks",
-    "https://marksrealtygroup.com/blog/bay-area-real-estate-outlook-2026-what-california-homebuyers-and-sellers-need-to-know-now",
-    "https://english.news.cn/northamerica/20260304/6b0f4fc49361441585bb5b6ca5b1abbf/c.html",
-    "https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield-historical-data",
-    "https://www.financemagnates.com/trending/why-is-bitcoin-surging-btc-price-tests-72k-but-price-prediction-still-suggests-30-drop-to-50k/",
-    "https://www.disruptionbanking.com/2026/03/04/xrp-poised-for-major-repricing-if-clarity-act-passes-in-2026/",
+    "https://www.mortgagenewsdaily.com/",
+    "https://www.prnewswire.com/news-releases/eastwood-homes-expands-greenville-division-with-new-communities-across-the-upstate-302704374.html",
+    "https://fred.stlouisfed.org/series/SP500",
+    "https://www.schwab.com/learn/story/stock-market-update-open",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.fool.com/investing/2026/03/04/xrp-is-soaring-today-is-the-cryptocurrency-a-buy/",
+    "https://www.redfin.com/county/303/CA/Alameda-County/housing-market",
+    "https://www.realtor.com/local/market/california/santa-clara-county",
     "https://homesbyspencerhsu.com/blog/bay-area-real-estate-market-update-january-2026",
-    "https://milpitasbeat.com/",
-    "https://fortune.com/2026/03/03/us-oil-gas-exporters-cant-fill-middle-east-supply-gap-trumps-pledge-insure-protect-tankers-stems-tide-prices/",
+    "https://milpitasbeat.com/category/news/",
     "https://sanjosespotlight.com/bay-area-lawmakers-author-bills-to-deter-immigration-enforcement/"
   ]
 }
